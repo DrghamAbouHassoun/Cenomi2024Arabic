@@ -1,0 +1,130 @@
+.container{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.svgContainer{
+    position: absolute;
+    transform: translateY(100%);
+    z-index: 1;
+    transition: all 1.5s ease-in-out;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    top: 0;
+}
+
+.svgContainer.show{
+    transform: translateY(0);
+}
+
+.yearNumber{
+    position: absolute;
+    inset: 0;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    z-index: 1;
+    padding: 10px 20px;
+  
+}
+
+.centerText{
+    padding-top:60px ;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.annualReportContainer{
+    padding-bottom: 5px;
+    /* overflow: hidden; */
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.annualReportContainer .line {
+    position: absolute;
+    left: 0;
+    background-color: white;
+    height: 2px;
+    bottom: 0;
+    width: 100%;
+    transform: scale(0);
+    transition: all 0.9s;
+    animation: annual-line 1.6s ease-in-out infinite alternate-reverse;
+}
+
+.annualReportContainer:hover .line{
+    transform-origin: left;
+}
+
+.themeModalButton {
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    z-index: 99999;
+    position: absolute; 
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+    font-size: 18px;
+}
+
+
+
+.themeModalButton .themeLine {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    bottom: 0;
+    width: 100%;
+    transform: scale(0);
+    transition: all 0.9s;
+}
+.themeModalButton:hover .themeLine {
+    transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .themeModalButton {
+        bottom: 4rem;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .themeModalButton {
+        bottom: 1rem;
+        left: calc(50% - 80px);
+        font-size: 16px;
+        width: fit-content;
+        text-align: center;
+    }
+}
+
+@keyframes annual-line {
+    to{
+        transform: scale(1);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+ .yearNumber{
+    padding: 0;
+    bottom: 20px;
+ }
+}

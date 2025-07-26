@@ -1,0 +1,48 @@
+.marquee {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .marqueeInner {
+    display: inline-flex;      /* Lays out children in a row */
+    white-space: nowrap;       /* Prevents wrapping */
+    animation: marquee 15s linear infinite;
+  }
+  
+  /* Ensure each image retains its natural size (or use a percentage if you need them to scale) */
+  .awardImg {
+    flex-shrink: 0;
+    /* Optionally, set a max-height or width to fit your design */
+    max-height: 250px;
+    margin-right: 32px;
+  }
+
+  .paused {
+    animation-play-state: paused !important;
+  }
+  
+  /* Keyframes: translate by 50% (the width of one set of images) */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* If you support RTL languages, you might have a reversed animation */
+  [dir="rtl"] .marqueeInner {
+    animation: marqueeRtl 15s linear infinite;
+  }
+  
+  @keyframes marqueeRtl {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+
+  

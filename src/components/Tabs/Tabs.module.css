@@ -1,0 +1,96 @@
+.wrapper {
+  position: relative;
+  margin-top: 32px;
+}
+.scrollMark {
+  position: absolute;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  z-index: -1;
+}
+.labelContainer {
+ 
+  /* color: black; */
+  /* padding: 10px 20px; */
+  /* position: sticky; */
+  top: var(--navbar-height);
+  z-index: 4;
+  overflow: hidden;
+  
+  transition: all .4s;
+}
+
+.labelContainer.hideTabs{
+  opacity: 0;
+  
+}
+
+.labelContainerWrapper{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 0px;
+  text-align: center;
+  /* margin: auto; */
+  gap: 12px;
+  
+}
+
+@media screen and (max-width: 1023px) {
+  .labelContainerWrapper{
+    /* width: 100%;
+    max-width: 300px; */
+    padding: 0 20px;
+  }
+}
+
+.labelWrapper{
+  background-color: var(--color-aubergine-200-50);
+
+}
+
+.label {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.label.active {
+  font-weight: 700;
+}
+
+.label:hover {
+  transform: scale(1.03);
+}
+
+.contentContainer {
+  /* padding-top: 10px; */
+}
+
+.borderBottomWhite{
+    border-bottom: 1px solid white;
+}
+
+.labelContainerWrapper > * {
+  flex: 1;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .labelContainerWrapper{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .labelContainerWrapper > *{
+    flex-basis: 20%;
+  }
+
+  .labelContainer{
+    position: sticky;
+    top: 0;
+    /* top: var(--navbar-height); */
+  }
+  
+}

@@ -1,0 +1,17 @@
+.backgroundColumn{
+  background-color: var(--color-gray-80);
+}
+ tr:hover td.backgroundColumn {
+  background-color: var(--color-gray-light) !important;
+}
+.linerColored{
+    background-color: var( --color-aubergine-200);
+    width: 90px;
+    height: 0.8vh;
+}
+.colorRow{
+    background-color: var(--color-gray-light);
+}
+.colorfirstcol{
+    background-color: white;
+}

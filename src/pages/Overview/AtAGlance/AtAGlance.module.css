@@ -1,0 +1,90 @@
+.purpleBackground {
+  background-image: url(./images/purple-background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+
+.purpleBackgroundOpacity {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  inset: 0;
+}
+
+.image {
+  object-fit: contain;
+  width: 50px;
+}
+
+.purpleItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.purpleItemWrapper {
+  z-index: 1;
+}
+
+.cardsection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbackground {
+  background-color: var(--color-aubergine-200-50);
+}
+
+.cardWrapper {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.link {
+  text-decoration: none;
+  transition: 0.6s;
+  display: block;
+  margin-top: 16px;
+}
+
+.link:hover {
+  color: var(--color-pink);
+}
+
+.purpleItemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .purpleItemsContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 64px; */
+  }
+
+  .purpleItemsContainer>* {
+    flex: 1;
+    flex-basis: 40%;
+  }
+
+  .cardsection {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardsection>* {
+    flex: 1;
+    flex-basis: 40%;
+  }
+}

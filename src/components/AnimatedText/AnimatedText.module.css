@@ -1,0 +1,15 @@
+.animatedText {
+  background: linear-gradient(to right, white 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* animation: drawText .7s ease forwards; */
+}
+
+[dir="rtl"] .animatedText{
+    background-position: -100% 0;
+}
+
+

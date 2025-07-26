@@ -1,0 +1,31 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- تعريف التدرج الخطي -->
+    <linearGradient id="rotatingStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="transparent" />
+      
+      <!-- تدوير التدرج من 0 إلى 360 درجة -->
+      <animateTransform
+        attributeName="gradientTransform"
+        type="rotate"
+        from="0 0.5 0.5"
+        to="360 0.5 0.5"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+    </linearGradient>
+  </defs>
+
+  <!-- شكل (مستطيل أو أي شكل) مع حد متدرج -->
+  <rect
+    x="25"
+    y="25"
+    width="250"
+    height="250"
+    fill="none"
+    stroke="url(#rotatingStroke)"
+    stroke-width="10"
+    rx="20"
+  />
+</svg>

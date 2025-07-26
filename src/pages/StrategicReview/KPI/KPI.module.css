@@ -1,0 +1,116 @@
+.cardOurValues {
+  background-image: url(./images/backgroundOurValuesMobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.itemGoals {
+  list-style-type: none;
+}
+
+.titleCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indent {
+  padding-left: 10px;
+}
+
+[dir="rtl"] .indent {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px
+}
+
+.cardPhase {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.lineGoals {
+  height: 4px;
+  background: var(--color-aubergine-linear);
+}
+
+.rowCardOurValue {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+
+  .cardPhase {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cardOurValues {
+    background-image: url(./images/backgroundOurValues.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .rowCardOurValue {
+    flex-direction: row;
+
+
+  }
+
+}
+
+
+.goalsFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.goalsFlex2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.goalItem {
+  /* flex: 30%; */
+  width: 100%;
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+  overflow: hidden;
+  background-image: url(/src/components/CardAnimationHover/images/backgroundcard.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .goalsFlex {
+    flex-direction: column;
+  }
+}

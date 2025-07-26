@@ -1,0 +1,97 @@
+.header {
+    /* background: linear-gradient(250.11deg, #20113E 47.63%, #BB7FFF 97.27%); */
+    background: var(--color-aubergine-900);
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+.secondarySection {
+    padding: 2rem;
+    background-color: #F6EDFF;
+}
+
+.coloredSection {
+    background: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.coloredSectionFlex {
+    display: flex;
+    margin-left: auto;
+    max-width: calc(1200px + ((100vw - 1200px) / 2));
+    height: 100%;
+}
+
+.coloredSectionFirstCol {
+    flex: 1;
+    padding: 8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coloredSectionSecondCol {
+    flex: 1;
+    max-width: 600px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    /* justify-items: end; */
+    padding: 10rem 2rem 0rem 4rem;
+    gap: 5rem;
+}
+
+.sideImage {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+    padding: 0 4rem 0 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+.infoLabel {
+    display: flex;
+    gap: 2rem;;
+}
+
+.labelIcon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.labelsFlex {
+    display: none;
+    gap: 5rem;
+    margin: 4rem 0;
+}
+
+.labelsFlex2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .coloredSectionSecondCol {
+        display: none;
+    }
+    .labelsFlex {
+        display: flex;
+    }
+    .labelsFlex2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .labelsFlex {
+        flex-direction: column;
+    }
+}

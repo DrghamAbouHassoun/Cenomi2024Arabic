@@ -1,0 +1,120 @@
+.wrapper {
+}
+
+.monthContainer {
+  display: flex;
+  gap: 32px;
+  
+}
+
+.contentWrapper {
+  /* padding-left: 15px; */
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.lineTop, .lineBottom{
+  height: 100px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+
+
+
+
+[dir="rtl"] .contentWrapper{
+    /* padding-left: initial;
+    padding-right: 15px; */
+}
+
+.line {
+  width: 2px;
+  height: 100%;
+  background-color: var(--color-aubergine-600);
+}
+
+.ellipse {
+  object-fit: contain;
+  width: 50px;
+}
+
+.ellipse.small{
+  width: 30px;
+}
+
+.ellipseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.month{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  padding-top: 14px;
+  overflow: hidden;
+}
+
+.calendarIcon{
+  object-fit: contain;
+  width: 60px;
+}
+
+.calendarIcon.bigger{
+  width: 140px;
+}
+
+
+
+@media screen and (min-width:1024px) {
+.monthContainer{
+  gap: 64px;
+}
+ 
+
+    /* .contentWrapper {
+        padding-left: 32px;
+        flex-basis: 50%;
+        width: 50%;
+    }
+
+    [dir="rtl"] .contentWrapper{
+        padding-left: initial;
+        padding-right: 32px;
+    }
+
+    .monthContainer{
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .emptySpace{
+       flex-basis: 50%;        
+    }
+
+    .month.textEnd{
+        text-align: end;
+        padding-right: 32px;
+    }
+
+    [dir="rtl"] .month.textEnd{
+        text-align: end;
+        padding-right: initial;
+        padding-left: 32px;
+    } */
+
+   
+}

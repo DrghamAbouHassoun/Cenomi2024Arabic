@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* height: 100vh; */
+}
+
+[dir="rtl"] .container{
+  flex-direction: row-reverse;
+}
+
+.digit {
+  color: white;
+  transform: scale(1);
+  transition: all 1s ease;
+  font-size: 7rem;
+  
+}
+
+.active {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 400px) {
+  .digit{
+    font-size: 8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .digit{
+    font-size: 9rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .digit{
+    font-size: 11rem;
+  }
+}

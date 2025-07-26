@@ -1,0 +1,217 @@
+.background {
+  background-color: var(--color-aubergine-200-50);
+}
+
+.iconsCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.iconText {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.backgroundSticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.stickyContent {
+  position: relative;
+  top: -100vh;
+}
+
+.brandsContainer {
+  padding: 20px;
+  background-color: hsla(268, 100%, 93%, 0.94);
+}
+
+.tier1Img {
+  object-fit: contain;
+  animation: brand-image-resalt 3s ease-in-out infinite alternate;
+}
+
+.tier1Images div:nth-child(odd) img {
+  animation-delay: 3s;
+}
+
+.tier1Images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.whiteBox {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.blueBackground {
+  /* background: linear-gradient(90.16deg, #20113E 1.8%, #592B8A 99.88%); */
+  background-image: url(./images/blue-background-2.jpg);
+  background-size: cover;
+}
+
+.azerbaijanTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.blueBackgroundContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.modelImage {
+  object-fit: contain;
+  width: 60%;
+  margin: auto;
+}
+
+.bottomBoxes {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+}
+
+.bottomBox {
+  /* background-color: var(--color-aubergine-200-50); */
+  padding: 0 10px;
+  max-height: fit-content !important;
+}
+
+.aboutImage {
+  object-fit: contain;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .iconsCenter {
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+  }
+
+  .bottomBoxes {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .modelImage {
+    width: 60%;
+
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .backgroundImage {
+    background-position: right;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    height: initial;
+  }
+
+  .textContent {
+    /* max-width: 70%; */
+    align-self: flex-start;
+  }
+
+  .blueBackgroundContent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 32px;
+  }
+
+  .bottomBoxes {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .modelImage {
+    width: 100%;
+    margin: initial;
+  }
+}
+
+@keyframes brand-image-resalt {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.07);
+  }
+}
+
+.bottomBoxImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bottomBoxWrapper {
+  height: 100%;
+}
+
+.secondarySection {
+  padding: 2rem;
+  background-color: #F6EDFF;
+}
+
+.secondarySection.dark {
+  background-color: var(--color-aubergine-900);
+}
+
+.hiddenContentItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.leftBox {
+  padding: 2rem;
+  background: var(--color-aubergine-200-50);
+}
+
+.rightBox {
+  background: var(--color-aubergine-100);
+}
+
+
+.contentBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .flex {
+    flex-direction: row;
+    ;
+  }
+}

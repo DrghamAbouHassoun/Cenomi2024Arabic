@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cenomi Retail AR 2024</title>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      window.companyId = '67edf8ee-822f-4d33-b563-02202e4d8b7d';
+      if (!document.getElementById('aiiro-chat-bot-root')) {
+        const div = document.createElement('div');
+        div.id = 'aiiro-chat-bot-root';
+        document.body.insertBefore(div, document.body.lastChild);
+      }
+      const script = document.createElement('script');
+      const link = document.createElement('link');
+      script.defer = true;
+      script.src = 'https://bot.aiiro.ai/static/js/main.js';
+      link.rel = 'stylesheet';
+      link.href = 'https://bot.aiiro.ai/static/css/main.css';
+      document.head.insertBefore(script, document.head.lastChild);
+      document.head.insertBefore(link, document.head.lastChild);
+    });
+</script>
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      window.companyId = 'b020a76c-0ca8-4334-a889-b6b3c2e01fdb';
+      // add language configuration
+      aiiroBotConfig = {
+        messageTimeFormat: 'HH:mm',
+        language: 'ar',
+      };
+      if (!document.getElementById('aiiro-chat-bot-root')) {
+        const div = document.createElement('div');
+        div.id = 'aiiro-chat-bot-root';
+        document.body.insertBefore(div, document.body.lastChild);
+      }
+      const script = document.createElement('script');
+      const link = document.createElement('link');
+      script.defer = true;
+      script.src = 'https://bot.aiiro.ai/static/js/main.js';
+      link.rel = 'stylesheet';
+      link.href = 'https://bot.aiiro.ai/static/css/main.css';
+      document.head.insertBefore(script, document.head.lastChild);
+      document.head.insertBefore(link, document.head.lastChild);
+    });
+  </script> -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

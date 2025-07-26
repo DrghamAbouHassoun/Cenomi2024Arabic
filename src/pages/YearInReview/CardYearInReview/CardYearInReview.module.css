@@ -1,0 +1,27 @@
+.container{
+    background: var(--color-linear);
+    
+}
+.containerCard{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.list li::marker {
+  color:var(--color-aubergine-900) /* or any color */
+}
+.line{
+    height: 100%;
+    margin-top:-5px;
+}
+.lineTop{
+    /* height: 100px; */
+    width: 60px;
+}
+.hidden{
+    visibility: hidden;
+    z-index: -10;
+}
+.image{
+    width: 60px;
+}

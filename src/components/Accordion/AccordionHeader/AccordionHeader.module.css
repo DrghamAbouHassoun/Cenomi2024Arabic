@@ -1,0 +1,90 @@
+.container {
+  --moving-caret-width: 80px;
+  padding: 8px 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-mepco-accent-1-10);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 0px #FFFFFFCC inset;
+  position: relative;
+border: 2px solid white;
+background-image: url(./images/header-background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.icon {
+  object-fit: contain;
+  width: 40px;
+}
+
+.iconTitleContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 75%;
+}
+
+.movingCaret{
+  object-fit: contain;
+  position: absolute;
+  left: 60%;
+  transition: all 0.6s;
+  width: var(--moving-caret-width);
+  
+}
+
+[dir="rtl"] .movingCaret{
+  left: initial;
+  right: 60%;
+  transform: scaleX(-1);
+}
+
+.active .movingCaret{
+  left: calc(100% - var(--moving-caret-width));
+}
+
+[dir="rtl"] .active .movingCaret{
+  right: calc(100% - var(--moving-caret-width));
+  left: initial;
+}
+
+[dir="rtl"] .chevron{
+    /* transform: rotate(90deg); */
+
+}
+
+.active .chevron {
+    /* transform: rotate(0); */
+}
+
+.caretImage{
+    object-fit: contain;
+    width: 50px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+  .container{
+    --moving-caret-width: 85px;
+  }
+
+  .movingCaret{
+left: 50%;
+  }
+
+  [dir="rtl"]  .movingCaret{
+left: initial;
+right: 50%;
+  }
+
+  .iconTitleContainer{
+    max-width: 50%;
+  }
+}

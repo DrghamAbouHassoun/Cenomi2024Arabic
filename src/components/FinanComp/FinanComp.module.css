@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  height: 35px;
+  /* justify-content: flex-start; */
+}
+
+.row.reverse{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.row.push.row2{
+    justify-content: flex-end;
+}
+
+.row.normalJustify.row2{
+    justify-content: initial;
+}
+
+.bar,
+.secondBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* transform: translateX(-100%); */
+  transition: all 0.9s;
+}
+
+.reverse .bar, .reverse .secondBar{
+    justify-content: flex-start;
+}
+
+.show .bar, .show .secondBar{
+    /* transform: translateX(0); */
+}
+
+.bar {
+  background-color: var(--color-aubergine-900);
+  color: white;
+}
+
+.secondBar {
+  background-color: var(--color-aubergine-200);
+  color: var(--color-aubergine-900);
+}
+
+.barWrapper{
+    position: relative;
+    overflow: hidden;
+    /* flex: 1; */
+   height: 100%;
+   width: 100%;
+}

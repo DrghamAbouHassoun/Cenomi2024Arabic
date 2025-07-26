@@ -1,0 +1,59 @@
+.singleAccordionContent {
+  max-height: 0;
+  opacity: 0;
+  transition: 1.2s ease-in-out;
+  overflow: hidden;
+  /* background: linear-gradient(180deg, #ffffff 64.59%, #dde4d5 100%); */
+  /* border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px; */
+  border-radius: 8px;
+  padding: 20px 10px;
+  z-index: -1;
+  position: relative;  
+  
+}
+
+.contentBackground{
+background-image: url(./images/background-content-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.singleAccordionContent.active {
+  opacity: 1;
+  max-height: 200vh;
+  margin-bottom: 25px;
+}
+
+.singleAccordion {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    /* max-width: 600px; */
+  }
+
+  .singleAccordionContent.active {
+    max-height: 100vh;
+  }
+  
+  .contentBackground{
+    background-image: url(./images/background-content.jpg);
+
+  }
+}

@@ -1,0 +1,25 @@
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    object-fit: contain;
+    width: 35px;
+}
+
+.counterBackground{
+    background: linear-gradient(180deg, rgba(236, 219, 255, 0.9) 31.67%, rgba(236, 219, 255, 0) 100%);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 280px;
+
+}
+
+.globe{
+    object-fit: contain;
+    width: 60px;
+    align-self: flex-end;
+}

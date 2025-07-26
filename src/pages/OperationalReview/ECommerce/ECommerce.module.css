@@ -1,0 +1,125 @@
+.background{
+    background-color: var(--color-aubergine-200-50);
+}
+
+.iconsCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.iconText{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.backgroundSticky{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.aboutImage{
+    width: 50px;
+}
+
+.stickyContent{
+  position: relative;
+  top: -100vh;
+}
+
+.box{
+    padding: 40px 20px;
+    flex: 1;
+    background: linear-gradient(90.16deg, #20113E 1.8%, #592B8A 99.88%);
+}
+
+.boxesWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.blueBackground{
+    /* background: linear-gradient(90.16deg, #20113E 1.8%, #592B8A 99.88%); */
+    background-image: url(./images/blue-background.jpg);
+    background-size: cover;
+
+}
+
+.trendyol{
+    object-fit: contain;
+    width: 180px;
+}
+
+.trendyolTextWrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 64px;
+}
+
+.frameContent{
+    padding: 20px;
+}
+
+.frameWrapper{
+    background: hsla(269, 21%, 42%, 1);
+}
+
+.secondarySection {
+    padding: 2rem;
+    background-color: #F6EDFF;
+}
+
+.secondarySection.dark {
+    background-color: var(--color-aubergine-900);
+}
+
+.brandHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .iconsCenter{
+        flex-direction: row;
+        /* justify-content: center; */
+        gap: 90px;
+    }
+
+    .trendyolTextWrapper{
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+
+    .boxesWrapper{
+        gap: 64px;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+     .backgroundImage {
+    background-position: right;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: 70%;
+    height: initial;
+  }
+
+
+}

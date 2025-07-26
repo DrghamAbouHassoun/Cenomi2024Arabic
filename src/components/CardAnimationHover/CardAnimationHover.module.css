@@ -1,0 +1,71 @@
+.cardHover {
+  position: relative;
+  width: 100%;
+  padding:25px 30px;
+  overflow: hidden;
+  background-image: url(./images/backgroundcard.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.titleCard {
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.textCardHover {
+  position: relative;
+  opacity: 0;
+  transition: opacity 1.2s;
+  /* transition: opacity 0.5s ease;
+  position: absolute;
+  top: 0; 
+  right: 0;
+  z-index: 6; */
+}
+
+.squearHover {
+  width: 75%;
+  height: 75%;
+  background-color: var(--color-aubergine-200);
+  position: absolute;
+  transform: scale(0);
+  transition: transform 1.5s ease;
+  z-index: 1;
+}
+
+.topRight {
+  top: 0;
+  right: 0;
+  transform-origin: top right;
+}
+
+.bottomLeft {
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom left;
+}
+
+.cardHover:hover .squearHover {
+  cursor: pointer;
+  transform: scale(2);
+}
+
+.cardHover:hover .textCardHover {
+  opacity: 1;
+  z-index: 2;
+}
+.cardHover:hover .titleCard  {
+  opacity: 0;
+  z-index: 2;
+}
+

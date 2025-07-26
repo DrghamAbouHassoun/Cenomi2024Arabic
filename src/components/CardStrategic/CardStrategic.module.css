@@ -1,0 +1,44 @@
+.Card {
+  background-color: var(--color-aubergine-200);
+  padding: 30px 10px;
+  transition: all 0.6s ease;
+  /* height: 400px; */
+  cursor: pointer;
+  transition: all 0.6s;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.Card.rtl {
+  height: 100%;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.Card:hover {
+  cursor: pointer;
+  background-color: var(--color-aubergine-900);
+  transition: 0.6s;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img{
+  object-fit: contain;
+  width:65px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .Card {
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+    flex: 1;
+  }
+}

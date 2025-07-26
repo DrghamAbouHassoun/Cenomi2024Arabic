@@ -1,0 +1,182 @@
+.backgroundImage {
+  /* background-image: url(./images/background-mobile.jpg); */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  /* height: 110vh;
+  overflow-y: auto; */
+}
+
+.backgroundSticky{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.stickyContent{
+  position: relative;
+  top: -100vh;
+}
+
+.tier1Header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.medalImage {
+  object-fit: contain;
+  width: 35px;
+}
+
+.frameWrapper {
+  background-color: var(--color-aubergine-200);
+  height: 100%;
+}
+
+.tier1Img {
+  object-fit: contain;
+  animation: brand-image-resalt 3s ease-in-out infinite alternate;
+}
+
+.tier1Images div:nth-child(odd) img {
+  animation-delay: 3s;
+}
+
+.tier1Images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.framerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  padding: 20px;
+}
+
+.logoImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  object-fit: contain;
+  width: 120px;
+}
+
+.squareHeader {
+  background-image: url(./images/square-header.jpg);
+  background-size: cover;
+  padding: 20px 10px;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+.squareContent {
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.twoSquare {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.twoSquare > * {
+  flex: 1;
+}
+
+.square {
+  /* width: 100%; */
+  /* flex: 1; */
+}
+
+.shoppingImage {
+  object-fit: contain;
+  width: 100%;
+}
+
+.brandsContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+
+.brandsContainer > * {
+  flex: 1;
+}
+
+.imageWrapper {
+  height: 500px;
+}
+
+.titleContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  align-content: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .shoppingImage {
+    /* max-width: 50%; */
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .brandsContainer {
+    flex-direction: row;
+    align-items: flex-start;
+    height: 500px;
+  }
+
+  .brandsContainer > * {
+    flex: 1;
+  }
+
+  .twoSquare {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .contentWrapper {
+    max-width: 50%;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+
+  .backgroundImage {
+    background-position: right;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: 70%;
+    height: initial;
+
+    /* height: 90vh; */
+  }
+}
+
+@keyframes brand-image-resalt {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}

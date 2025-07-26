@@ -1,0 +1,80 @@
+.menuButton {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  flex-direction: column;
+  gap: 6px;
+  background-color: white;
+  border-radius: 8px;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+}
+
+.menuButtonWrapper {
+  display: flex;
+  gap: 12px;
+  justify-items: center;
+  align-items: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.bar {
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-aubergine-900);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: left;
+}
+
+.menuButton:hover {
+  background-color: #fff0;
+  border-color: white;
+  color: white
+}
+
+.menuButton:hover .bar {
+  background: white;
+}
+
+
+/* Top bar */
+.bar:first-child {
+  transform: translateY(0px);
+}
+
+/* Bottom bar */
+.bar:last-child {
+  transform: translateY(0px);
+}
+
+/* Open state: transform into centered X */
+.open .bar:first-child {
+  transform: translateX(3px) rotate(42deg);
+}
+
+.open .bar:nth-child(2) {
+  opacity: 0; /* Hide the middle bar */
+}
+
+.open .bar:last-child {
+  transform: translateX(3px) rotate(-42deg);
+}
+.menu{
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+    .bar{
+        width: 24px;
+    }
+}

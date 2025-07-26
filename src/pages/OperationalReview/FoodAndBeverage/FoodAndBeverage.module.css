@@ -1,0 +1,177 @@
+.background{
+    background-color: var(--color-aubergine-200-50);
+}
+
+.iconsCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.iconText{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.backgroundSticky{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.stickyContent{
+  position: relative;
+  top: -100vh;
+}
+
+.brandsContainer{
+    padding: 20px;
+    background-color: hsla(268, 100%, 93%, 0.94);
+}
+
+.tier1Img{
+    object-fit: contain;
+  animation: brand-image-resalt 3s ease-in-out infinite alternate;
+}
+
+.tier1Images div:nth-child(odd) img {
+  animation-delay: 3s;
+}
+
+.tier1Images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.box{
+    flex: 1;
+    padding: 40px 20px;
+    background: linear-gradient(90.16deg, #20113E 1.8%, #592B8A 99.88%);
+}
+
+.boxesWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.blueBackground{
+    /* background: linear-gradient(90.16deg, #20113E 1.8%, #592B8A 99.88%); */
+    background-image: url(./images/blue-background.jpg);
+    background-size: cover;
+
+}
+
+.aboutImage{
+    object-fit: contain;
+    width: 50px;
+}
+
+.subway{
+    object-fit: contain;
+    width: 180px;
+}
+
+.subwayTextWrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 64px;
+}
+
+.frameContent{
+    padding: 20px;
+}
+
+.frameWrapper{
+    background: hsla(269, 21%, 42%, 1);
+}
+
+.awardsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.award{
+    display: flex;
+    gap: 8px;
+}
+
+.secondarySection {
+    padding: 2rem;
+    background-color: #F6EDFF;
+}
+
+.secondarySection.dark {
+    background-color: var(--color-aubergine-900);
+}
+
+.brandHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .iconsCenter{
+        flex-direction: row;
+        /* justify-content: center; */
+        gap: 90px;
+    }
+
+    .awardText{
+        max-width: 200px;
+    }
+
+    .awardsWrapper{
+        flex-direction: row;
+    }
+
+    .subwayTextWrapper{
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+
+    .boxesWrapper{
+        gap: 64px;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+     .backgroundImage {
+    background-position: right;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: 70%;
+    height: initial;
+  }
+
+
+}
+
+@keyframes brand-image-resalt {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}

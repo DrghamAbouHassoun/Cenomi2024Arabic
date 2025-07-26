@@ -1,0 +1,64 @@
+.backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.backgroundSticky{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.stickyContent{
+  position: relative;
+  top: -100vh;
+}
+
+.frameWrapper {
+  background-image: url(./images/card-background.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frameContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .frameContent{
+        flex-direction: row;
+        gap: 32px;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .backgroundImage {
+    background-position: right;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: 70%;
+    height: initial;
+  }
+
+  .contentWrapper {
+    max-width: 50%;    
+    margin-left: auto;
+  }
+}
