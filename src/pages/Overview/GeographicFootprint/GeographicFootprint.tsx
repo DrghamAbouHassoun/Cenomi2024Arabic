@@ -63,7 +63,7 @@ export const GeographicFootprint = () => {
                       {arrayBorder[index] && (
                         <div className={styles.borderWrapper}>
                           <img
-                            className={styles.iconborder}
+                            className={`${styles.iconborder} ${rtlLanguage ? styles.rtl : ""}`}
                             src={arrayBorder[index]}
                             alt=""
                           />
@@ -76,6 +76,7 @@ export const GeographicFootprint = () => {
                           rtlLanguage,
                           item.bottomTitle1
                         )}
+                        
                       />
                       <Count
                         countValue={item.countValue2}

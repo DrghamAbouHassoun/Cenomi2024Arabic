@@ -125,7 +125,7 @@ const FinancialReview = () => {
         </div>
       </div>
       <div className="spacer-64"></div>
-      <div className={styles.coloredSection}>
+      <div className={`${styles.coloredSection} ${rtlLanguage ? styles.rtl : ""}`}>
         <div className={styles.coloredSectionFlex}>
           <div className={styles.coloredSectionFirstCol}>
             <Paragraph
@@ -301,11 +301,12 @@ const FinancialReview = () => {
       <div className="spacer-64"></div>
       <div className="container horizontal-padding">
         <Paragraph classNames="bold subheading color-aubergine-900">
-          {getRightContent(rtlLanguage, ["To view the full Financial review chapter, please click here to download the PDF.", ""])}
+          {getRightContent(rtlLanguage, ["To view the full Financial review chapter, please click here to download the PDF.", "لمشاهدة الفصل المالي الكامل، يرجى النقر هنا لتحميل الملف الإلكتروني."
+          ])}
         </Paragraph>
         <div className="spacer-16"></div>
         <DownloadButton
-          text={["Download PDF", ""]}
+          text={["Download PDF", "تحميل الملف"]}
           link="./pdf/Financial_review.pdf"
         />
       </div>

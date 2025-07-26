@@ -17,6 +17,7 @@ import { getVisibleSensorAnimation } from "../../ts/util";
 import { YearInReview } from "../../pages/YearInReview/YearInReview";
 import { OperationalReview } from "../../pages/OperationalReview/OperationalReview";
 import ThemeModal from "../ThemeModal/ThemeModal";
+import ChatBotLoader from "../ChatBotLoader/ChatBotLoader";
 
 const Layout = () => {
   // const windowWidth = useWindowSize();
@@ -71,8 +72,10 @@ const Layout = () => {
   };
   return (
     <div ref={ref} key={logoToggled ? "0" :"1"} className={styles.container}>
+      <ChatBotLoader />
       <div  style={getVisibleSensorAnimation(inView, "fade-in 1s 7s backwards")} className={styles.navbarWrapper}>
       <Navbar />
+
       </div>
       <main>
       {pageSelector(currentPage)}

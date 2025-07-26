@@ -10,6 +10,11 @@ import q2 from "./images/q2.svg";
 import q3 from "./images/q3.svg";
 import q4 from "./images/q4.svg";
 
+import q1Ar from "./images/q1-ar.svg";
+import q2Ar from "./images/q2-ar.svg";
+import q3Ar from "./images/q3-ar.svg";
+import q4Ar from "./images/q4-ar.svg";
+
 import coverImage from "./images/cover.jpg";
 // import VerticalCalendar from "../../components/VerticalCalendar/VerticalCalendar";
 // import CardYearInReview from "./CardYearInReview/CardYearInReview";
@@ -19,6 +24,7 @@ import { useEffect } from "react";
 const pageContent = content.pages.YearInReview;
 
 const quarterImages = [q1, q2, q3, q4];
+const quarterImagesAr = [q1Ar, q2Ar, q3Ar, q4Ar];
 
 export const YearInReview = () => {
   const rtlLanguage = useAppStore((s) => s.rtlLanguage);
@@ -58,7 +64,7 @@ export const YearInReview = () => {
         <div className="container horizontal-padding">
           <VerticalCalendar
             quarters={pageContent.textCard}
-            quarterImages={quarterImages}
+            quarterImages={rtlLanguage ? quarterImagesAr : quarterImages}
           />
           {/* <CardYearInReview /> */}
           {/* <div className="spacer-64"></div> */}

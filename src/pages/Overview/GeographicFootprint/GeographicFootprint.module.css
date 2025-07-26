@@ -124,6 +124,13 @@
   z-index: 1;
 }
 
+.iconborder.rtl {
+  left: auto;
+  right: -15px;
+  top: 90px;
+  transform: translateX(50%) rotate(180deg);
+}
+
 @media screen and (max-width:766px) {
   .iconborder {
     top: 20px;

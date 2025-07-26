@@ -234,30 +234,38 @@ export const BrandPortfolio = () => {
   const windowWidth = useWindowSize();
   return (
     <div>
-      <div className={styles.backgroundImage}>
+      <div className={`${styles.backgroundImage} ${rtlLanguage ? styles.rtl : ""}`}>
         {windowWidth < 1024 && <img alt="" src={backgroundImageMobile} className={styles.backgroundSticky} />}
-        <div className={["container horizontal-padding", windowWidth < 1024 ? styles.stickyContent :""].join(" ")}>
-          <div className={styles.contentWrapper}>
+        <div className={["container horizontal-padding", windowWidth < 1024 ? styles.stickyContent : ""].join(" ")}>
+          <div className={`${styles.contentWrapper} ${rtlLanguage ? styles.rtl : ""}`}>
             <div className="spacer-64"></div>
             <div className={styles.titleContainer}>
               <Paragraph
-              classNames="white text-center bold"
-              fontClassName={windowWidth < 1024 ? "headline" : "h4"}
-            >
-              {getRightContent(rtlLanguage, pageContent.title)}
-            </Paragraph>
-            {/* <div className="spacer-16"></div> */}
-            <div className={styles.logoImageContainer} ref={logoRef.ref}>
-              <img
-                src={logoImage}
-                alt=""
-                className={styles.logoImage}
-                style={getVisibleSensorAnimation(
-                  logoRef.inView,
-                  "scale-from-center 1.2s 0.3s backwards"
-                )}
-              />
-            </div>
+                classNames="white text-center bold"
+                fontClassName={windowWidth < 1024 ? "headline" : "h4"}
+              >
+                {getRightContent(rtlLanguage, [pageContent.title[0], pageContent.title[1].split(",")[0]])}
+              </Paragraph>
+              
+              {/* <div className="spacer-16"></div> */}
+              <div className={styles.logoImageContainer} ref={logoRef.ref}>
+                <img
+                  src={logoImage}
+                  alt=""
+                  className={styles.logoImage}
+                  style={getVisibleSensorAnimation(
+                    logoRef.inView,
+                    "scale-from-center 1.2s 0.3s backwards"
+                  )}
+                />
+              </div>
+              {rtlLanguage && (<Paragraph
+                classNames="white text-center bold"
+                fontClassName={windowWidth < 1024 ? "headline" : "h4"}
+              >
+                {getRightContent(rtlLanguage, [pageContent.title[0], pageContent.title[1].split(",")[1]])}
+
+              </Paragraph>)}
             </div>
             <div className="spacer-32"></div>
             <div className={styles.frameWrapper} ref={tier1Ref.ref}>
@@ -542,7 +550,7 @@ export const BrandPortfolio = () => {
           </div>
           <div className={["image-wrapper-animation", styles.imageWrapper].join(" ")} ref={shoppingImageRef.ref}>
             <img
-              
+
               style={getVisibleSensorAnimation(
                 shoppingImageRef.inView,
                 "scale-from-center-50 1s backwards"

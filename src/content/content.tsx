@@ -117,10 +117,10 @@ const content = {
             label: ["Governance", ""],
           },
           {
-            label: ["Business Overview ",""]
+            label: ["Business Overview ", ""]
           },
           {
-            label:["Board of Directors ",""]
+            label: ["Board of Directors ", ""]
           }
         ]
       },
@@ -131,25 +131,25 @@ const content = {
             label: ["Financial Statements", ""],
           },
           {
-            label :["Independent Auditor’s Report"]
+            label: ["Independent Auditor’s Report"]
           },
-                    {
-            label :["Consolidated Statement of Financial Position "]
+          {
+            label: ["Consolidated Statement of Financial Position "]
           },
-                    {
-            label :["Consolidated Statement of Profit or Loss "]
+          {
+            label: ["Consolidated Statement of Profit or Loss "]
           },
-                    {
-            label :["Consolidated Statement of Comprehensive Income"]
+          {
+            label: ["Consolidated Statement of Comprehensive Income"]
           },
-                    {
-            label :["Consolidated Statement of Changes in Equity "]
+          {
+            label: ["Consolidated Statement of Changes in Equity "]
           },
-                    {
-            label :["Consolidated Statement of Cash Flows "]
+          {
+            label: ["Consolidated Statement of Cash Flows "]
           },
-                    {
-            label :["Notes to the Consolidated Financial Statements"]
+          {
+            label: ["Notes to the Consolidated Financial Statements"]
           },
         ]
       },
@@ -159,15 +159,15 @@ const content = {
     title: ["Theme of the Year", "شعار العام"],
     subtitle: ["Sharper. Leaner. Ready for growth.", "كفاءة أعلى، أداء أكثر سلاسة، نمو بلا حدود."],
     paragraph1: [
-      "Cenomi Retail has now entered a new era of ambition and clarity. The Company has reimagined how it operates, where it wants to grow and what it stands for. 2024 was a year shaped by conviction - a readiness to act decisively and reshape the business for long-term advantages. Every decision was anchored in purpose and every change brought Cenomi Retail closer to being the company it aspires to be.", 
+      "Cenomi Retail has now entered a new era of ambition and clarity. The Company has reimagined how it operates, where it wants to grow and what it stands for. 2024 was a year shaped by conviction - a readiness to act decisively and reshape the business for long-term advantages. Every decision was anchored in purpose and every change brought Cenomi Retail closer to being the company it aspires to be.",
       "نجحنا خلال العام الماضي في إعادة رسم رؤيتنا لأساليب عملنا، وتحديد وجهات نمونا، والمبادئ التي نرتكز عليها، ما وضع سينومي ريتيل على الطريق الصحيح نحو مرحلة جديدة قوامها الطموح والعزيمة والرؤية الواضحة. كان عاماً شكلته قناعتنا الراسخة، وترجمتْهُ جرأتُنا على اتخاذ قرارات حاسمة لإعادة هيكلة أعمالنا بما يحقق لها ميزة تنافسية طويلة الأجل، فكان لكل قرار نتخذه غايةٌ وهدف، وكل تغيير يقرّبنا من المكانة التي نصبو إليها."
     ],
     paragraph2: [
-      "This transformation wasn’t incremental. It was foundational. Cenomi Retail recalibrated not only what it does, but how it does it - from the ground up. With sharper priorities and a simplified structure, the Company focused its efforts on initiatives that will drive a lasting impact. The result is a more agile business with the confidence and capability to lead, adapt and thrive in a fast-moving landscape.", 
+      "This transformation wasn’t incremental. It was foundational. Cenomi Retail recalibrated not only what it does, but how it does it - from the ground up. With sharper priorities and a simplified structure, the Company focused its efforts on initiatives that will drive a lasting impact. The result is a more agile business with the confidence and capability to lead, adapt and thrive in a fast-moving landscape.",
       "لم يكن هذا التحول تدريجياً، بل كان تحولاً جذرياً وشاملاً، أعدنا من خلاله معايرة أسس أعمالنا ومنهجياتها. وبفضل تحديدنا لأولويات أكثر دقة واعتمادنا هيكلاً تنظيمياً مبسطاً، وجّهنا جهودنا نحو المبادرات التي تضمن تحقيق أثر مستدام. وكانت النتيجة كياناً تجارياً أكثر مرونة، يتمتع بالثقة والقدرة على الريادة والتكيف والازدهار في مشهد أعمال سريع التغير."
     ],
     paragraph3: [
-      "As the Company moves into 2025, it is investing with intention, expanding with discipline and moving faster in the markets that matter. The foundation is set. The strategy is clear. Cenomi Retail is now - undeniably  sharper, leaner and ready for growth.", 
+      "As the Company moves into 2025, it is investing with intention, expanding with discipline and moving faster in the markets that matter. The foundation is set. The strategy is clear. Cenomi Retail is now - undeniably  sharper, leaner and ready for growth.",
       "ومع انطلاقتنا نحو عام 2025م، نوجه تركيزنا على الاستثمار بعناية فائقة، والتوسع بانضباط وحكمة، والتقدم بخطى أسرع في الأسواق الأكثر أهمية وجدوى بالنسبة لنا. لقد تمكنا من إرساء أسس صلبة لأعمالنا، وباتت استراتيجيتنا واضحة المعالم. وبفضل كل ما تحقق وما بذل من جهود، أصبحت سينومي ريتيل اليوم وبكل ثقة، أكثر تركيزاً، وأعلى كفاءةً، وأتم استعداداً للنمو."
     ],
   },
@@ -314,9 +314,9 @@ const content = {
         ],
         [
           "لمحة موجزة",
-          "البصمة الجغرافية",
+          "التواجد الجغرافي",
           "محفظة العلامة التجارية",
-          "محفزات الاستثمار في الشركة",
+          "الوضع الاستثماري",
         ],
       ],
       title: ["Overview", "نظرة عامة"],
@@ -332,8 +332,8 @@ const content = {
           (<span className="riyalBigText">$</span> m)
         </span>,
         <span>
-        (<span className="riyalBigText">$</span> مليون)
-      </span>,
+          (<span className="riyalBigText">$</span> مليون)
+        </span>,
       ],
       items: [
         {
@@ -445,10 +445,10 @@ const content = {
           },
           {
             text: [
-                <span>
-                  Reopened Zara in Nakheel Mall - the{" "}
-                  <span className="bold">Kingdom’s largest Zara</span>
-                </span>,
+              <span>
+                Reopened Zara in Nakheel Mall - the{" "}
+                <span className="bold">Kingdom’s largest Zara</span>
+              </span>,
               <span>
                 إعادة افتتاح فرع “زارا” في النخيل مول ليكون <span className="bold">أكبر فروع العلامة التجارية في المملكة</span>
               </span>,
@@ -500,13 +500,13 @@ const content = {
         items: [
           {
             countValue1: 880,
-            bottomTitle1: [<span className="bold"> Stores </span>, " "],
+            bottomTitle1: [<span className="bold"> Stores </span>, <span className="bold"> متجراً </span>],
             countValue2: 0,
             bottomTitle2: [" ", " "],
           },
           {
             countValue1: 631,
-            bottomTitle1: [<span className="bold"> Stores in KSA </span>, " "],
+            bottomTitle1: [<span className="bold"> Stores in KSA </span>, <span className="bold"> متجراً في المملكة العربية السعودية </span>],
             countValue2: 0,
             bottomTitle2: [" ", " "],
           },
@@ -514,30 +514,30 @@ const content = {
             countValue1: 271,
             bottomTitle1: [
               <span className="bold body-m"> F&B Outlets </span>,
-              " ",
+              <span className="bold body-m"> منفذًا للأطعمة والمشروبات </span>,
             ],
             countValue2: 360,
             bottomTitle2: [
               <span className="bold body-m"> Retail Stores</span>,
-              " ",
+              <span className="bold body-m"> متجر تجزئة </span>,
             ],
           },
 
           {
             countValue1: 9,
-            bottomTitle1: [<span className="bold"> Countries </span>, " "],
+            bottomTitle1: [<span className="bold"> Countries </span>, <span className="bold">دول</span>],
             countValue2: 0,
             bottomTitle2: [" ", " "],
           },
           {
             countValue1: 159,
-            bottomTitle1: [<span className="bold"> Malls</span>, " "],
+            bottomTitle1: [<span className="bold"> Malls</span>, <span className="bold">مركزاً للتسوق</span>],
             countValue2: 0,
             bottomTitle2: [" ", " "],
           },
           {
             countValue1: 51,
-            bottomTitle1: [<span className="bold"> Brands </span>, " "],
+            bottomTitle1: [<span className="bold"> Brands </span>, <span className="bold"> علامة تجارية </span>],
             countValue2: 0,
             bottomTitle2: [" ", " "],
           },
@@ -545,7 +545,7 @@ const content = {
             countValue1: 249,
             bottomTitle1: [
               <span className="bold"> International Outlets</span>,
-              " ",
+              <span className="bold">متجر تجزئة في الأسواق الدولية</span>,
             ],
             countValue2: 0,
             bottomTitle2: [" ", " "],
@@ -554,7 +554,7 @@ const content = {
             countValue1: 20,
             bottomTitle1: [
               <span className="bold"> Mono Brand Websites </span>,
-              " ",
+              <span className="bold">موقعاً إلكترونياً أحادي العلامة التجارية</span>,
             ],
             countValue2: 0,
             bottomTitle2: [" ", " "],
@@ -616,7 +616,7 @@ const content = {
         // ],
       },
       table: {
-        header: [["", "Number of Malls", "Number of Brands"], []],
+        header: [["", "Number of Malls", "Number of Brands"], ["", "عدد المراكز للتسوق", "عدد العلامات التجارية"]],
         data: [
           [
             {
@@ -647,30 +647,61 @@ const content = {
               data: ["Egypt", "8", "5"],
             },
           ],
-          [],
+          [
+            {
+              data: ["المملكة العربية السعودية", "105", "32"],
+            },
+            {
+              data: ["الولايات المتحدة الأمريكية", "14", "1"],
+            },
+            {
+              data: ["كازاخستان", "8", "5"],
+            },
+            {
+              data: ["أوزباكستان", "1", "7"],
+            },
+            {
+              data: ["أذربيجان", "7", "17"],
+            },
+            {
+              data: ["جورجيا", "6", "19"],
+            },
+            {
+              data: ["أرمينيا", "4", "15"],
+            },
+            {
+              data: ["الأردن", "6", "18"],
+            },
+            {
+              data: ["مصر", "8", "5"],
+            },
+          ],
         ],
       },
     },
     BrandPortfolio: {
       title: [
         "Brands delivered, as of 2024, by",
-        "Brands delivered, as of 2024, by",
+        "العلامات التجارية التي تضمها, في العام 2024م",
       ],
-      tier1: ["Tier 1 Champion Brands", "Tier 1 Champion Brands"],
-      inditex: ["Inditex", "Inditex"],
-      fashion: ["Fashion", "Fashion"],
-      fb: ["F&B", "F&B"],
-      multimedia: ["Multimedia", "Multimedia"],
-      lifestyle: ["Lifestyle", "Lifestyle"],
-      sports: ["Sports", "Sports"],
-      beauty: ["Beauty", "Beauty"],
+      tier1: ["Tier 1 Champion Brands", "العلامات التجارية الرائدة من المستوى الأول"],
+      inditex: ["Inditex", "إنديتكس"],
+      fashion: ["Fashion", "الأزياء"],
+      fb: ["F&B", "الأطعمة والمشروبات"],
+      multimedia: ["Multimedia", "إلكترونيات"],
+      lifestyle: ["Lifestyle", "نمط الحياة العصرية"],
+      sports: ["Sports", "رياضة"],
+      beauty: ["Beauty", "مستحضرات التجميل"],
       brands: [
         <span>
           Brands divested in the{" "}
           <span className="text-no-wrap">Kingdom of Saudi Arabia</span> as of
           2024
         </span>,
-        "Brands divested in the Kingdom of Saudi Arabia as of 2024",
+        <span>
+          العلامات التجارية التي تم التخارج <br />
+          عنها في المملكة العربية السعودية خلال عام 2024م
+        </span>,
       ],
       brandsText: [
         <span>
@@ -686,6 +717,9 @@ const content = {
           <span className="text-no-wrap">high-growth</span> geographies while
           improving profitability and operational efficiency.
         </span>,
+        <span>
+          في عام 2024م، اتّخذت “سينومي ريتيل” خطوة استراتيجية لإعادة تشكيل محفظتها الاستثمارية، من خلال التخارج المدروس من عدد من العلامات التجارية غير الأساسية، بهدف إعادة توجيه الموارد نحو العلامات ذات الأولوية والأسواق الأكثر أهمية. وقد ساهم هذا التوجّه في تعزيز كفاءة العمليات، وتحسين استخدام رأس المال، ورفع مستويات الربحية، بما يدعم رؤية الشركة طويلة الأجل لبناء شركة أكثر مرونة وتركيزاً على العلامات الرائدة، قادرة على التوسع في القطاعات عالية النمو وتحقيق قيمة مستدامة.
+        </span>
       ],
     },
     InvestmentCase: {
@@ -702,10 +736,13 @@ const content = {
           <span className="text-no-wrap">multi-format,</span>{" "}
           <span className="text-no-wrap">multi-market</span> strategy.
         </span>,
+        <span>
+          تتمتع سينومي ريتيل بميزة تنافسية فريدة كونها الكيان الوحيد المدرج من نوعه في أسواق المال بالشرق الأوسط وفي تداول السعودية، مدعومة بحجم أعمالها الذي لا يضاهى في السوق بجانب محفظتها المكونة من نخبة من العلامات التجارية الرائدة وتنفيذها المحكم لاستراتيجيتها التشغيلية. تعمل الشركة في أسواق ذات مقومات هيكلية أساسية قوية، وتلتزم التزاماً راسخاً بتقديم قيمة مستدامة عبر استراتيجية متوازنة متعددة الأبعاد والأسواق.
+        </span>
       ],
       cards: [
         {
-          title: ["Unmatched Scale in the KSA", ""],
+          title: ["حضور غير مسبوق في المملكة العربية السعودية", ""],
           text: [
             <span>
               Cenomi Retail operates 631 stores across the Kingdom, giving it
@@ -713,11 +750,13 @@ const content = {
               sectors such as retail, F&B and{" "}
               <span className="text-no-wrap">e-commerce</span>.
             </span>,
-            "",
+            <span>
+              تُشغل سينومي ريتيل 631 متجراً منتشراً عبر أنحاء المملكة، مما يمنحها وصولاً وحضوراً لا نظير له في السوق، يمتد عبر قطاعات مختلفة مثل التجزئة والأغذية والمشروبات والتجارة الإلكترونية.
+            </span>,
           ],
         },
         {
-          title: ["Leading Brands", ""],
+          title: ["محفظة استثنائية من العلامات التجارية الرائدة", ""],
           text: [
             <span>
               Cenomi Retail’s portfolio includes unparalleled Tier 1 Champion
@@ -730,11 +769,13 @@ const content = {
               <span className="text-no-wrap">quick-service</span> restaurant
               (QSR) outlets.
             </span>,
-            "",
+            <span>
+              تضم محفظة سينومي ريتيل مجموعة قوية من العلامات التجارية الرائدة تمتد عبر قطاعات التجزئة والأغذية والمشروبات والتجارة الإلكترونية، وتُقدم مزيجاً متوازناً من الأسماء العالمية والمفاهيم المحلية عالية الأداء، تتراوح من الفاخرة إلى الاقتصادية لتناسب مختلف الميزانيات. كما أن هذه العلامات مدعومة بمحفظة متنوعة من منافذ مطاعم الخدمة السريعة الرائدة.
+            </span>,
           ],
         },
         {
-          title: ["Diversified Footprint", ""],
+          title: ["بصمة عالمية متنوعة جغرافياً", ""],
           text: [
             <span>
               Cenomi Retail maintains a presence across nine countries with a
@@ -742,11 +783,13 @@ const content = {
               <span className="text-no-wrap">high-potential</span> markets such
               as Azerbaijan, Georgia and Uzbekistan.
             </span>,
-            "",
+            <span>
+              حافظ سينومي ريتيل على حضورها عبر 9 دول من خلال 880 متجراً في أنحاء مختلفة من العالم، حيث تتركز متاجرها دولياً في الأسواق عالية الإمكانات مثل أذربيجان وجورجيا وأوزبكستان.
+            </span>,
           ],
         },
         {
-          title: ["Digital Powerhouse", ""],
+          title: ["ريادة في المجال الرقمي", ""],
           text: [
             <span>
               Offering its customers the broadest retail experience, Cenomi
@@ -756,11 +799,13 @@ const content = {
               active monobrand websites, this approach strengthens customer
               engagement and overall retail growth.
             </span>,
-            "",
+            <span>
+              تواصل البنية التحتية الرقمية المتطورة لسينومي ريتيل، والتي تهدف إلى إثراء تجربة عملائها بآفاق تسوق أوسع، تعزيز مسيرة توسع نموذج عملها متعدد القنوات. وتؤدي المبيعات عبر الإنترنت دوراً محورياً في دعم إجمالي إيرادات المجموعة، إذ تمثل نسبة 8% منها. ويسهم هذا التوجه الاستراتيجي، المعزز بشبكة تضم 20 موقعاً إلكترونياً نشطاً مخصصاً لعلامات تجارية مفردة، في توطيد علاقة الشركة بعملائها ودفع عجلة نمو قطاع التجزئة بمجمله.
+            </span>,
           ],
         },
         {
-          title: ["Investing Strategically", ""],
+          title: ["استثمارات مدروسة برؤية استراتيجية", ""],
           text: [
             <span>
               Focused investment in scaling{" "}
@@ -769,17 +814,22 @@ const content = {
               strategy to drive profitable growth and unlock{" "}
               <span className="text-no-wrap">long-term</span> value.
             </span>,
-            "",
+            <span>
+              يشكل الاستثمار المُركّز، الهادف إلى توسيع حضور العلامات التجارية عالية الأداء وزيادة نطاق انتشارها في الأسواق القائمة والجديدة، ركيزة أساسية في استراتيجية سينومي ريتيل الطموحة لتحقيق نمو مستدام ومربح، وإطلاق العنان لقيمة طويلة الأجل تعود بالنفع على جميع أصحاب المصلحة المعنيين بأعمالها.
+            </span>,
           ],
         },
       ],
     },
     YearInReview: {
-      title: ["Year in Review", ""],
-      subtitle: ["Over the past year, we have taken significant steps to refine our portfolio, enhance operational efficiency and reinforce our financial foundations ", ""],
+      title: ["Year in Review", "أبرز محطات العام"],
+      subtitle: [
+        "Over the past year, we have taken significant steps to refine our portfolio, enhance operational efficiency and reinforce our financial foundations ",
+        "قطعنا في العام المنصرم أشواطاً كبيرةً للارتقاء بأداء محفظتنا وتحسين كفاءتنا التشغيلية وتعزيز مركزنا المالي."
+      ],
       intro1: [
         "2024 was a year of decisive transformation. The Company sharpened its focus, streamlined its portfolio and expanded strategically across high-potential markets - emerging leaner, stronger and primed to accelerate growth in 2025 and beyond.",
-        "",
+        "شهدت سينومي ريتيل في عام 2024م تحولاً جذرياً في مسارها نحو التحسين والتطوير المستمر لعملياتها. فقد ركّزت الشركة جهودها على الأنشطة الأساسية ذات الأولوية، وبسّطت محفظتها الاستثمارية بتخارجات مدروسة، ثم توسعت استراتيجياً في الأسواق الواعدة. وقد جعلها هذا النهج أكثر كفاءة وقوة واستعداداً لتسريع النمو في عام 2025م وما بعده.",
       ],
       intro2: [
         <span>
@@ -789,6 +839,9 @@ const content = {
             optimization program and implementing its cost reduction program
           </div>
         </span>,
+        <span>
+          وجهت الشركة خلال عام 2024م تركيزها بدقة نحو ثلاث ركائز أساسية: تعزيز كفاءتها التشغيلية، وتنفيذ برنامج لتطوير محفظة علاماتها التجارية، وتطبيق برنامج شامل لخفض التكاليف.
+        </span>
       ],
 
       textCard: [
@@ -802,7 +855,14 @@ const content = {
               </span>,
               <span> Expanded in Uzbekistan with eight additional brands</span>,
             ],
-            [],
+            [
+              <span>
+                إتمام بيع حقوق الامتياز التجاري لـ 16 علامة تجارية إلى شركة العثيم للأزياء (مكاسب رأسمالية بقيمة 35 % مليون).
+              </span>,
+              <span>
+                التوسع في أوزبكستان بـ 8 علامات تجارية.
+              </span>
+            ],
           ],
         },
         {
@@ -816,7 +876,11 @@ const content = {
                 gain of <span className="riyal-medium">&</span> 131 million){" "}
               </span>,
             ],
-            [],
+            [
+              <span>
+                استلام حصيلة المبيعات من حقوق الامتياز المباعة في صيغة معدّلة من اتفاقية شراء الأسهم مع العثيم لـ 3 علامات تجارية إضافية: ألدو، وألدو إكسسواريز، ولا في إن روز (مكاسب رأسمالية بقيمة 131 <span className="riyal-medium">&</span> مليون).
+              </span>
+            ],
           ],
         },
         {
@@ -837,7 +901,10 @@ const content = {
                 latest brand concept in Armenia
               </span>,
             ],
-            [],
+            [
+              <span>واصلت الشركة تنفيذ برنامج تطوير المحفظة الاستثمارية في المملكة العربية السعودية وباعت حقوق الامتياز التجاري لـ 5 علامات تجارية إضافية: تشارلز آند كيث، وبيدرو، وإستي لودر، وناين ويست إلى مجموعة أباريل، وكول إت سبرينغ إلى شركة العثيم للأزياء (حصيلة مبيعات بقيمة 47 <span className="riyal-medium">&</span> مليون بالإضافة إلى المخزون).</span>,
+              <span>تجديد وإعادة افتتاح المتجر الرئيسي لماسيمو دوتي بأحدث مفهوم للعلامة التجارية في أرمينيا.</span>
+            ],
           ],
         },
         {
@@ -862,7 +929,20 @@ const content = {
                 expanding its reach to a new audience
               </span>,
             ],
-            [],
+            [
+              <span>
+                تسجيل رقم قياسي عالمي جديد لصب واي بافتتاح 12 فرعاً جديداً في نفس اليوم في أكتوبر، وحطّمت رقماً قياسياً جديداً في ديسمبر بافتتاح 14 فرعاً جديداً لصب واي بشكل متزامن.
+              </span>,
+              <span>
+                افتتاح متجر زارا جديد في أذربيجان، بعد افتتاح 6 متاجر جديدة لإنديتكس في 2024م.
+              </span>,
+              <span>
+                تجديد وافتتاح متجر زارا بالمفهوم الجديد في النخيل مول بالرياض، المملكة العربية السعودية.
+              </span>,
+              <span>
+                إطلاق أربع علامات تجارية لإنديتكس على منصة التجارة الإلكترونية “ترينديول”، لتوسيع نطاق الوصول إلى جمهور جديد.
+              </span>
+            ],
           ],
         },
       ],
@@ -1366,9 +1446,9 @@ const content = {
       ],
     },
     StrategicReview: {
-      tabLabels: [["Strategy and KPIs", "Business Model", "Financial Review"], [""]],
-      title: ["Strategic Review", ""],
-      subtitle: ["As a leading retail powerhouse with a clear strategic vision, Cenomi Retail integrates premier global brands with deep local insight", ""]
+      tabLabels: [["Strategy and KPIs", "Business Model", "Financial Review"], ["الاستراتيجية ومؤشرات الأداء الرئيسية ", "نموذج العمل", "المراجعة المالية"]],
+      title: ["Strategic Review", "المراجعة الاستراتيجية"],
+      subtitle: ["As a leading retail powerhouse with a clear strategic vision, Cenomi Retail integrates premier global brands with deep local insight", "بصفتها قوة رائدة في قطاع التجزئة، ترتكز سينومي ريتيل على رؤية استراتيجية واضحة، تدمج بين العلامات التجارية الرائدة والفهم العميق للسوق المحلي."]
     },
     strategyAndKpis: {
       pharagrapIntro: [
@@ -1381,46 +1461,48 @@ const content = {
           Company is strengthening core operations, expanding market reach and
           positioning the business for scalable, profitable growth.
         </span>,
-        "",
+        <span>
+          تعتمد استراتيجية سينومي ريتيل على خارطة طريق مرحلية، تقود التحول المؤسسي والنمو المستدام والتميّز التشغيلي، بما يفتح آفاقاً أوسع لإمكانات الشركة ويحقق قيمة طويلة الأجل لجميع أصحاب المصلحة. فمن خلال تركيز أكثر وضوحاً وتنفيذ منضبط، نعمل على تعزيز عملياتنا الأساسية، وتوسيع حضورنا في السوق، وتمكين الشركة من تحقيق نمو مربح قابل للتوسّع.
+        </span>,
       ],
       cardOurValue: {
-        title: ["Our Values", ""],
+        title: ["Our Values", "قيمنا"],
         content: [
           {
-            title: ["Delight customers", ""],
-            text: ["We always focus on our customers-needs and wants", ""],
+            title: ["Delight customers", "إسعاد العملاء"],
+            text: ["We always focus on our customers-needs and wants", "نركز دائماً على احتياجات عملائنا ورغباتهم"],
           },
           {
-            title: ["Commit to deliver", ""],
-            text: ["Show personal commitment to delivering results", ""],
+            title: ["Commit to deliver", "الالتزام بتحقيق النتائج"],
+            text: ["Show personal commitment to delivering results", "إظهار الالتزام الشخصي بتحقيق النتائج"],
           },
           {
-            title: ["Execute with excellence", ""],
-            text: ["How we work is as important as what we deliver", ""],
+            title: ["Execute with excellence", "التنفيذ بامتياز"],
+            text: ["How we work is as important as what we deliver", "لطريقة عملنا أهمية مماثلة لما ننجزه"],
           },
           {
-            title: ["Win together", ""],
-            text: ["We work together for speed and execute for success", ""],
+            title: ["Win together", "تحقيق الفوز معاً"],
+            text: ["We work together for speed and execute for success", "نحن نعمل معاً لتنفيذ الأعمال وتحقيق النجاح بسرعة"],
           },
           {
-            title: ["Embrace change", ""],
-            text: ["Have courage to think about and shape a better future", ""],
+            title: ["Embrace change", "تقبل التغيير"],
+            text: ["Have courage to think about and shape a better future", "نمتلك الشجاعة للتفكير وتشكيل مستقبل أفضل"],
           },
         ],
       },
-      titleSectionPhase: ["Strategic Phase", " "],
+      titleSectionPhase: ["Strategic Phase", "المراحل الاستراتيجية"],
       cardPhase: [
         {
-          numberPhase: ["Phase 1", " "],
+          numberPhase: ["Phase 1", "المرحلة الأولى"],
           titlePhase: [
             <span>
               Fix the House <span className="text-no-wrap"> (2023-2024)</span>
             </span>,
-            " ",
+            <span>تصحيح المسار <span className="text-no-wrap">(2023-2024)</span></span>,
           ],
           card: [
             {
-              titleCard: ["Description", " "],
+              titleCard: ["Description", "الوصف"],
               textCard: [
                 [
                   <span>Rationalize brand and store portfolio</span>,
@@ -1435,11 +1517,17 @@ const content = {
                     Deleverage the Company and secure cash for growth
                   </span>,
                 ],
-                [],
+                [
+                  <span>ترشيد محفظة العلامات التجارية والمتاجر وإعادة التركيز عليها</span>,
+                  <span>التخارج من الأسواق غير الاستراتيجية أو تحقيق الاستقرار فيها</span>,
+                  <span>تجديد العمليات والأنظمة من أجل ضمان الفعالية</span>,
+                  <span>استقطاب العلامات التجارية الجديدة في الأسواق الرئيسية</span>,
+                  <span>خفض نسبة الدين في رأسمال الشركة للحصول على النقد اللازم للنمو</span>
+                ],
               ],
             },
             {
-              titleCard: ["KPIs", " "],
+              titleCard: ["KPIs", "مؤشرات الأداء الرئيسية "],
               textCard: [
                 [
                   <span>Sell 24 non-core brands </span>,
@@ -1450,11 +1538,24 @@ const content = {
                   <span>Enter new markets with potential for growth</span>,
                   <span>Commit to deleveraging the balance sheet</span>,
                 ],
-                [],
+                [
+                  <span>
+                    بيع 24 علامة تجارية غير أساسية
+                  </span>,
+                  <span>
+                    رفع الكفاءة وتحسين التكلفة في جميع أقسام وإدارات الشركة
+                  </span>,
+                  <span>
+                    دخول أسواق جديدة ذات إمكانات نمو عالية
+                  </span>,
+                  <span>
+                    الالتزام بخفض الميزانية العمومية
+                  </span>
+                ],
               ],
             },
             {
-              titleCard: [[<div>2024</div>, <div>Achievements</div>], []],
+              titleCard: [[<div>2024</div>, <div>Achievements</div>], [<div>إنجازات عام 2024م</div>]],
 
               textCard: [
                 [
@@ -1486,17 +1587,33 @@ const content = {
                     Dutti online stores in Uzbekistan
                   </span>,
                 ],
-                [],
+                [
+                  <span>
+                    بيع 24 علامة تجارية غير أساسية بربح رأسمالي يبلغ 210 % مليون
+                  </span>,
+                  <span>
+                    تقليص شبكة المتاجر بنسبة 34.6%، من 1,345 متجراً في عام 2023م إلى 880 متجراً في عام 2024م
+                  </span>,
+                  <span>
+                    خفض صافي الدين بنسبة 31.6%، مع تقليل تكاليف التمويل بنسبة 4.2%
+                  </span>,
+                  <span>
+                    دخول سوق أوزباكستان في فبراير 2024م، بافتتاح 7 متاجر إنديتكس وتحقيق مبيعات بلغت 132 % مليون في أقل من عام
+                  </span>,
+                  <span>
+                    التركيز على تحسين كفاءة التكاليف، مما أدى إلى خفض مصاريف البيع والمصاريف العمومية والإدارية بنسبة 23.2% سنوياً
+                  </span>
+                ],
               ],
             },
           ],
         },
         {
-          numberPhase: ["Phase 2", " "],
-          titlePhase: ["Embark on Sustainable Growth (2024-2026)", " "],
+          numberPhase: ["Phase 2", "المرحلة الثانية"],
+          titlePhase: ["Embark on Sustainable Growth (2024-2026)", "الشروع في النمو المستدام (2024م - 2026م)"],
           card: [
             {
-              titleCard: ["Description", " "],
+              titleCard: ["Description", "الوصف"],
               textCard: [
                 [
                   <span>Invest to scale existing brands across markets</span>,
@@ -1506,11 +1623,15 @@ const content = {
                   </span>,
                   <span>Grow e-commerce </span>,
                 ],
-                [],
+                [
+                  <span>الاستثمار في توسيع نطاق العلامات التجارية الحالية عبر الأسواق</span>,
+                  <span>تحديد الفرص المتاحة والحصول على امتيازات جديدة في الأسواق الرئيسية</span>,
+                  <span>تنمية التجارة الإلكترونية </span>,
+                ],
               ],
             },
             {
-              titleCard: ["KPIs", " "],
+              titleCard: ["KPIs", "مؤشرات الأداء الرئيسية "],
               textCard: [
                 [
                   <span>
@@ -1523,11 +1644,15 @@ const content = {
                     1 Champion Brands
                   </span>,
                 ],
-                [],
+                [
+                  <span>الاستثمار في المتاجر ذات المواقع الاستراتيجية المتميزة </span>,
+                  <span>رفع الكفاءة التشغيلية</span>,
+                  <span>اختيار مواقع متميزة (مولات متميزة) لتوسيع انتشار العلامات التجارية الرائدة من الدرجة الأولى </span>,
+                ],
               ],
             },
             {
-              titleCard: [[<div>2024</div>, <div>Achievements</div>], []],
+              titleCard: [[<div>2024</div>, <div>Achievements</div>], [<div>إنجازات عام 2024م</div>]],
 
               textCard: [
                 [
@@ -1556,17 +1681,32 @@ const content = {
                     destination
                   </span>,
                 ],
-                [],
+                [
+                  <span>
+                    تجديد متجر زارا في مول النخيل وإعادة افتتاحه في ديسمبر 2024م، مما أدى إلى زيادة بنسبة 40% في المبيعات خلال الشهر ذاته
+                  </span>,
+                  <span>
+                    افتتاح 47 فرعاً جديداً لمطاعم صب واي خلال عام 2024م، محققة بذلك رقماً قياسياً عالمياً مرتين عبر افتتاح 12 فرعاً جديداً في يوم واحد، و14 فرعاً في يوم آخر
+                  </span>,
+                  <span>
+                    إطلاق 4 علامات تجارية تابعة لإنديتكس عبر منصة ترينديول الإلكترونية في ديسمبر 2024م
+                  </span>,
+                  <span>
+                    تحسين كفاءة دوران المخزون من متوسط 15.3 أسبوعاً في عام 2023م إلى 11.3 أسبوعاً في عام 2024م
+                  </span>,
+                  <span>وسّعت سينومي ريتيل حضورها الاستراتيجي في أذربيجان بافتتاح متجر جديد لعلامة زارا في وجهة التسوق الأشهر في باكو، وذلك بعد افتتاحها ستة متاجر أخرى تابعة لمجموعة إنديتكس خلال عام 2024م‌
+                  </span>
+                ],
               ],
             },
           ],
         },
         {
-          numberPhase: ["Phase 3", " "],
-          titlePhase: ["Achieving Optimal Potential (2026+)", " "],
+          numberPhase: ["Phase 3", "المرحلة الثالثة"],
+          titlePhase: ["Achieving Optimal Potential (2026+)", "تحقيق الإمكانات المثلى (+2026م)"],
           card: [
             {
-              titleCard: ["Description", " "],
+              titleCard: ["Description", "الوصف"],
               textCard: [
                 [
                   <span>
@@ -1575,39 +1715,46 @@ const content = {
                   </span>,
                   <span>Invest in scaling new brands</span>,
                 ],
-                [],
+                [
+                  <span>
+                    توسيع نطاق العلامات التجارية الحالية لتحقيق أقصى قدر من الإمكانات، وضمان التغطية الشاملة للمدن الرئيسية في الأسواق المستهدفة
+                    الاستثمار في توسيع نطاق العلامات التجارية الجديدة
+                  </span>
+                ],
               ],
             },
             {
-              titleCard: ["KPIs", " "],
+              titleCard: ["KPIs", "مؤشرات الأداء الرئيسية "],
               textCard: [
                 [
                   <span>
                     Continue expansion in domestic market and internationally
                   </span>,
                 ],
-                [],
+                [
+                  <span>التوسع المستمر في السوق المحلي والأسواق العالمية</span>
+                ],
               ],
             },
           ],
         },
       ],
       goals: {
-        titleGoals: ["2025 Goals", " "],
+        titleGoals: ["2025 Goals", "أهداف 2025م"],
         itemGoals: [
           {
             item: [
               "Continue investing in Tier 1 Champion Brands in both Fashion and F&B",
-              " ",
+              "مواصلة الاستثمار في العلامات التجارية الرائدة من الفئة الأولى في قطاعي الأزياء والأطعمة والمشروبات",
             ],
           },
           {
-            item: ["Drive further operation efficiency", " "],
+            item: ["Drive further operation efficiency", "تعزيز كفاءة العمليات التشغيلية"],
           },
           {
             item: [
               "Provide the best online customer experience catering to all consumer brands in all the countries where the Company operates",
-              " ",
+              "تقديم أفضل تجربة عملاء على الإنترنت تغطي جميع العلامات التجارية في كافة الدول والأسواق التي تعمل بها الشركة",
             ],
           },
         ],
@@ -1616,7 +1763,7 @@ const content = {
           {
             titleList: [
               "Adapt the latest technology adopted by Zara and Inditex worldwide, such as:",
-              " ",
+              "اعتماد أحدث التقنيات العالمية المستخدمة في زارا وإنديتكس، ومنها:",
             ],
             dataList: [
               [
@@ -1640,15 +1787,21 @@ const content = {
                 </span>,
                 <span>Specific checkout areas for returns</span>,
               ],
-              [],
+              [
+                <span>خدمة ادفع وانطلق (Pay & Go) التي تتيح للعملاء شراء الملابس عن طريق مسحها ضوئياً بهواتفهم الجوالة</span>,
+                <span>برنامج تجديد يركّز على تحسين تجربة العميل، يشمل تنظيم تدفق السير داخل المتجر وتوفير خيارات لحجز غرف القياس </span>,
+                <span>نقاط استلام إلكترونية مزودة بمناطق تخزين آلية </span>,
+                <span>مناطق دفع ذاتي تتوفر فيها خدمة المساعدة، تشمل خيار الدفع النقدي </span>,
+                <span>منطقة مخصصة لإعادة تدوير عبوات الكرتون الخاصة بالعملاء</span>,
+                <span>مناطق مخصصة لإرجاع المشتريات</span>,
+              ],
             ],
           },
           {
             titleList: [
               <span>
-                Improve F&B performance through:
-              </span>,
-              " ",
+                Improve F&B performance through:              </span>,
+              <span>رفع أداء قطاع الأغذية والمشروبات من خلال ما يلي:</span>,
             ],
             dataList: [
               [
@@ -1678,7 +1831,14 @@ const content = {
                   evolving lifestyle
                 </span>,
               ],
-              [],
+              [
+                <span>ابتكارات تتمحور حول العميل، عبر توسيع خيارات العروض بما يتوافق مع احتياجات العملاء على مدار اليوم </span>,
+                <span>التركيز على ابتكار المنتجات عبر مختلف العلامات التجارية </span>,
+                <span>حملات تسويقية موجهة تستهدف اللحظات الثقافية الرئيسية لتقديم تجارب علامة تجارية راقية ومتميزة</span>,
+                <span>التميز الرقمي ونطاق التوصيل، من خلال تعزيز الحضور الرقمي ونمو خدمات التوصيل كقناة أساسية للنمو المستدام</span>,
+                <span>تحقيق نمو مربح في حركة الزوار، وتعزيز الكفاءة التشغيلية، وبناء منظومة ولاء متكاملة</span>,
+                <span>تعزيز صلة العلامة التجارية بتحقيق احتياجات العملاء عبر بناء روابط عاطفية أعمق وتحديث الانطباع العام عنها لتلائم تطورات أنماط الحياة</span>,
+              ],
             ],
           },
         ],
@@ -1697,10 +1857,13 @@ const content = {
           <span className="text-no-wrap">long-term</span> success, through its
           disciplined execution and strategic growth.
         </span>,
+        <span>
+          تستفيد سينومي ريتيل من حجمها الكبير، وقوة علاماتها التجارية، وخبرتها التشغيلية، في خلق قيمة قوية ومستدامة للمساهمين وجميع أصحاب المصلحة. وبصفتها قوة رائدة في قطاع التجزئة، ترتكز على رؤية استراتيجية واضحة، تدمج بين العلامات التجارية العالمية الرائدة، والفهم العميق للسوق المحلي، وشبكة متاجر واسعة النطاق، وقدرات رقمية متقدمة. ومن خلال التنفيذ المنضبط والنمو المدروس، نعمل على بناء شركة أكثر مرونة ووضوحاً، ومؤهلة لتحقيق نجاح طويل الأجل.
+        </span>
       ],
       accordion: [
         {
-          title: ["Our Strengths", ""],
+          title: ["Our Strengths", "مكامن قوتنا "],
           text: [
             [
               <span>
@@ -1744,11 +1907,40 @@ const content = {
                 and trends enabling adaptation to evolving trends.
               </span>,
             ],
-            [],
+            [
+              <span>
+                <span className="bold">محفظة العلامات التجارية</span>
+                <br></br>محفظة متنوعة وقوية تضم علامات تجارية عالمية من الفئة الأولى (زارا وإنديتكس)، إلى جانب علامات أزياء متنوعة وامتيازات تجارية رائدة في قطاع الأطعمة والمشروبات.
+              </span>,
+              <span>
+                <span className="bold">الأصول المادية</span>
+                <br></br>شبكة تجزئة واسعة تضم أكثر من 850 متجراً و252 منفذاً للأطعمة والمشروبات، تغطي أكثر من 360 ألف متر مربع من المساحات القابلة للتأجير.
+              </span>,
+              <span>
+                <span className="bold">قطاع تجزئة</span> رائد في المملكة العربية السعودية
+              </span>,
+              <span>
+                نموذج <span className="bold">أعمال قابل للتوسع وفعّال</span>
+              </span>,
+              <span>
+                <span className="bold">تواجد استراتيجي</span> في أسواق دولية عالية النمو
+              </span>,
+              <span>
+                <span className="bold">البنية التحتية التقنية</span>
+                <br></br>قدرات متقدمة في التسويق متعدد القنوات، ومنصات رقمية حديثة، وحضور قوي في التجارة الإلكترونية يشمل 20 موقعاً إلكترونياً أحادي العلامة التجارية.
+              </span>,
+              <span>
+                <span className="bold">الشراكات الاستراتيجية</span>
+                <br></br>علاقات طويلة الأجل مع شركاء عالميين في مجال العلامات التجارية والمورّدين، تسهم في تعزيز حضورنا في السوق وتوسيع نطاق منتجاتنا.
+              </span>,
+              <span>
+                <span className="bold">فهم عميق لاحتياجات المستهلكين</span> واتجاهات السوق، بما يتيح لنا التكيّف بسرعة وفعالية مع التغيرات المستمرة.
+              </span>,
+            ],
           ],
         },
         {
-          title: ["How We Create Value", ""],
+          title: ["How We Create Value", "آليات ابتكار القيمة"],
           text: [
             [
               <span>
@@ -1768,11 +1960,23 @@ const content = {
               <span><span className="bold">Omnichannel retailing</span><br></br>Seamless integration of physical stores with digital e-commerce platforms, providing consumers with superior shopping experiences and convenience.</span>,
               <span><span className="bold">Innovation and adaptability</span><br></br>Adaptation to evolving consumer trends, integrating new product categories and service innovations, especially within lifestyle and F&B segments.</span>,
             ],
-            [],
+            [
+              <span>
+                <span className="bold">التوسّع في الأسواق وتحسين محفظة المنتجات</span>
+                <br></br>توسّع استراتيجي في الأسواق ذات الإمكانات العالية، لا سيّما في المملكة ومنطقة رابطة الدول المستقلة (أذربيجان، جورجيا، أرمينيا، أوزبكستان)، إلى جانب تحسين مدروس لمحفظة العلامات التجارية.
+              </span>,
+              <span>
+                <span className="bold">تعزيز تجربة العميل</span>
+                <br></br>تجديد متواصل للفروع وافتتاح مراكز تسوق رئيسية (مثل جوهرة الرياض وجوهرة جدة)، مما أدى إلى زيادة الإقبال، وتعزيز التفاعل مع العملاء، ورفع إنتاجية فريق المبيعات.
+              </span>,
+              <span><span className="bold">الكفاءات التشغيلية</span><br></br>تنفيذ صارم لتدابير ترشيد التكاليف، وإدارة مرنة للمخزون، وتعزيز كفاءة سلسلة التوريد، مما ينعكس إيجاباً على هوامش الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك، والربحية العامة.</span>,
+              <span><span className="bold">شركة تجزئة متعددة القنوات التسويقية</span><br></br>التكامل السلس للمتاجر الفعلية مع منصات التجارة الإلكترونية الرقمية، مما يوفر للمستهلكين تجارب تسوق وراحة فائقة.</span>,
+              <span><span className="bold">الابتكار والقدرة على التكيف</span><br></br>الاستجابة السريعة لتغيّرات سلوك المستهلكين من خلال إدخال فئات منتجات وخدمات جديدة، خاصة في قطاعات نمط الحياة العصرية والأطعمة والمشروبات.</span>,
+            ],
           ],
         },
         {
-          title: ["Value Created for Our Business and Stakeholders", ""],
+          title: ["Value Created for Our Business and Stakeholders", "القيمة المضافة لأعمالنا ولأصحاب المصلحة"],
           text: [
             [
               <span>
@@ -1811,11 +2015,36 @@ const content = {
                 closely with Saudi Arabia’s Vision 2030 objectives.
               </span>,
             ],
-            [],
+            [
+              <span>
+                <span className="bold">الريادة في السوق</span>
+                <br></br>مكانة قوية في السوق كشركة رائدة في تجارة التجزئة والامتيازات التجارية في قطاعي الأزياء والأطعمة والمشروبات في المملكة العربية السعودية وعلى الصعيد الدولي.
+              </span>,
+              <span>
+                <span className="bold">الأداء المالي</span>
+                <br></br>تعزيز الأداء المالي عبر برنامج متخصص لإدارة الفروع وترشيد محفظة العلامات التجارية والعمل علي ضبط التكاليف بكفاءة.{" "}
+              </span>,
+              <span>
+                <span className="bold">المقاييس المالية</span>
+                <br></br>تحسن ملحوظ في المقاييس المالية مدفوع بمبادرات كفاءة العمليات التشغيلية وإدارة التكاليف.
+              </span>,
+              <span>
+                <span className="bold">نمو متنوع</span>
+                <br></br>نمو متسارع في الأسواق العالمية واستقرار في السوق المحلي، مدفوعان باستثمارات استراتيجية في متاجر التجزئة الجديدة والتحول الرقمي المتواصل.
+              </span>,
+              <span>
+                <span className="bold">حقوق ملكية العلامة التجارية وولاء العملاء</span>
+                <br></br>زيادة قيمة العلامة التجارية وارتفاع معدلات رضا العملاء والاحتفاظ بهم بفضل تجارب مخصصة وجودة خدمة متميزة في قطاعي التجزئة والأطعمة والمشروبات.
+              </span>,
+              <span>
+                <span className="bold">قيمة مجتمعية ومؤسسية</span>
+                <br></br>مساهمات ملموسة في دعم الاقتصاد المحلي وتوليد فرص العمل وتعزيز التنمية المجتمعية، بما يتوافق مع أهداف رؤية المملكة 2030.
+              </span>,
+            ],
           ],
         },
         {
-          title: ["Our Competitive Advantages", ""],
+          title: ["Our Competitive Advantages", "المزايا التنافسية"],
           text: [
             [
               <span>
@@ -1851,7 +2080,28 @@ const content = {
                 responsiveness to market opportunities.
               </span>,
             ],
-            [],
+            [
+              <span>
+                <span className="bold">شراكات حصرية مع علامات تجارية متميزة</span>
+                <br></br>اتفاقيات امتياز تجاري حصرية مع علامات رائدة عالمياً، تعزز ولاء العملاء وتضمن تميزاً واضحاً في السوق.
+              </span>,
+              <span>
+                <span className="bold">مواقع تجزئة متميزة</span>
+                <br></br>حضور قوي في أبرز المراكز التجارية والمواقع الحيوية داخل المملكة والأسواق الدولية المستهدفة.
+              </span>,
+              <span>
+                <span className="bold">تميز تشغيلي</span>
+                <br></br>خبرة راسخة في إدارة عمليات التجزئة تتيح افتتاح المتاجر بسرعة، وتحديثها بكفاءة، إلى جانب تحكّم دقيق في التكاليف.
+              </span>,
+              <span>
+                <span className="bold">ريادة رقمية</span>
+                <br></br>قدرات قوية في التجارة الإلكترونية والمنصات الرقمية، تمنح الشركة ميزة تنافسية إضافية وتعزز سهولة الوصول للعملاء وراحتهم.
+              </span>,
+              <span>
+                <span className="bold">نموذج أعمال قابل للتوسع</span>
+                <br></br>قدرة عالية على التوسع السريع من خلال شراكات استراتيجية وتوسّع مدروس في الأسواق، بما يضمن مرونة استثنائية وسرعة الاستجابة للفرص السوقية.
+              </span>,
+            ],
           ],
         },
       ],
@@ -1864,52 +2114,109 @@ const content = {
         "",
       ],
       header: {
-        firstTitle: ["Delivering improved performance.", ""],
-        secondTitle: ["Positioned for stronger growth ahead.", ""],
-        firstParagraph: ["Cenomi Retail’s financial results improved for the full year ending 31 December 2024 (FY-24), reflecting its continued progress in operational efficiency, ongoing brand optimization and disciplined execution. Financial performance improved across key indicators, showcasing enhanced profitability and cost discipline.", ""],
-        secondParagraph: ["The Company advanced its strategic agenda throughout the year by prioritizing operational excellence, rationalizing its portfolio and executing selected store openings and renovations centered on Tier 1 Champion Brands in high-potential markets. The reopening of the flagship Zara store at Al Nakheel Mall in Riyadh drove a 40% surge in store revenue for December, demonstrating the impact of strategic investment in high-traffic locations and blended physical-digital experiences", ""],
+        firstTitle: ["Delivering improved performance.", "تحسن مستمر في الأداء.. "],
+        secondTitle: ["Positioned for stronger growth ahead.", "وتأهبٌ لنموٍ أقوى في المستقبل."],
+        firstParagraph: [
+          "Cenomi Retail’s financial results improved for the full year ending 31 December 2024 (FY-24), reflecting its continued progress in operational efficiency, ongoing brand optimization and disciplined execution. Financial performance improved across key indicators, showcasing enhanced profitability and cost discipline.",
+          "سجلت شركة سينومي ريتيل تحسناً في أدائها المالي للسنة المالية الكاملة المنتهية في 31 ديسمبر 2024م، حيث عكست هذه النتائج التقدم المستمر في جهودها لتعزيز الكفاءة التشغيلية وتحسين أداء محفظة العلامات التجارية والتنفيذ المنضبط للاستراتيجية. وشهد الأداء المالي تحسناً ملموساً عبر المؤشرات الرئيسية، مما أظهر تطوراً في مستوى الربحية وانضباطاً أفضل في إدارة التكاليف."
+        ],
+        secondParagraph: [
+          "The Company advanced its strategic agenda throughout the year by prioritizing operational excellence, rationalizing its portfolio and executing selected store openings and renovations centered on Tier 1 Champion Brands in high-potential markets. The reopening of the flagship Zara store at Al Nakheel Mall in Riyadh drove a 40% surge in store revenue for December, demonstrating the impact of strategic investment in high-traffic locations and blended physical-digital experiences",
+          "واصلت الشركة خلال العام تنفيذ خطتها الاستراتيجية مركزةً على تعزيز التميز التشغيلي وتبسيط محفظتها الاستثمارية. بالإضافة إلى ذلك، أولت اهتماماً خاصاً لافتتاح وتجديد متاجر مختارة، مع التركيز على العلامات التجارية الرائدة ضمن الأسواق الواعدة. وخير مثال على نجاح هذه الاستراتيجية هو متجر “زارا” الرئيسي في “النخيل مول” بالرياض؛ فبعد إعادة افتتاحه، ارتفعت إيراداته بنسبة 40% خلال شهر ديسمبر. هذا الارتفاع الملحوظ يؤكد بوضوح تأثير الاستثمار الاستراتيجي في المواقع الحيوية وتقديم تجارب تسوق متكاملة تجمع بين العالم الرقمي والواقعي."
+        ],
       },
       section1: {
-        title: ["Strengthening Revenue Streams Across Core Markets", ""],
-        paragraph1: [<p>Cenomi Retail reported a consolidated revenue of <span className="riyal-small">&</span> 4.8 billion for FY-24, a 3.7% YoY increase, supported by improved operational efficiencies and the execution of its brand optimization strategy. Net loss narrowed significantly to <span className="riyal-small">&</span> 197 million, reflecting the Company’s progress in restoring profitability.</p>, ""],
-        paragraph2: [<p>The retail revenue from the Saudi operations totaled <span className="riyal-small">&</span> 3.2 billion for the year, a 1.7% YoY decline as a direct result of the brand optimization program, exiting non-core brands and markets. Despite this, key initiatives such as the reopening of the renovated flagship Zara store in Al Nakheel Mall and targeted marketing campaigns contributed to a stronger in-store performance during peak periods. During the last quarter of the year, Saudi retail revenue rose 9.1% YoY, supported by customer-centric campaigns such as White Friday and Pay Day promotions.</p>, ""],
-        paragraph3: [<p>International operations delivered robust growth, with revenue rising 26.5% YoY to reach <span className="riyal-small">&</span> 1.3 billion. This was driven by greater contributions from Azerbaijan and Georgia, where full-year revenue increased by 26.6% and 26.8% respectively. Uzbekistan, where operations launched in early 2024, generated <span className="riyal-small">&</span> 132 million in its first year. Strategic investments in store openings, renovations and digital platforms across the CIS region supported this momentum.</p>, ""],
-        paragraph4: [<p>The F&B segment recorded revenue of <span className="riyal-small">&</span> 328 million in FY-24, down 13.5% YoY as a result of 35 non-performing stores. However, Subway demonstrated substantial growth, supported by the opening of 47 new stores and improved like-for-like performance. With 61 Company-owned and 164 sub-franchised outlets, the brand is well-positioned for further expansion in 2025.</p>, ""],
-        paragraph5: [<p>Online revenue totaled <span className="riyal-small">&</span> 363 million, a 2.9% YoY decline, largely reflecting the impact of the brand portfolio restructuring. However, online sales from Zara and Inditex grew 6.6% YoY, supported by continued investment in digital platforms. Online revenue</p>, ""],
+        title: [
+          "Strengthening Revenue Streams Across Core Markets",
+          "تعزيز مصادر الإيرادات عبر الأسواق الأساسية"
+        ],
+        paragraph1: [
+          <p>Cenomi Retail reported a consolidated revenue of <span className="riyal-small">&</span> 4.8 billion for FY-24, a 3.7% YoY increase, supported by improved operational efficiencies and the execution of its brand optimization strategy. Net loss narrowed significantly to <span className="riyal-small">&</span> 197 million, reflecting the Company’s progress in restoring profitability.</p>,
+          <p>سجّلت سينومي ريتيل إيرادات موحدة بلغت 4.8 <span className="riyal-small">&</span> مليار للسنة المالية 2024م، بزيادة قدرها 3.7% على أساس سنوي، مدعومة بتحسين مستويات الكفاءة التشغيلية وتنفيذ استراتيجية تطوير أداء العلامات التجارية. وتقلص صافي الخسارة بشكل كبير إلى 197 % مليون، مما يعكس تقدم الشركة على طريق استعادة الربحية.</p>
+        ],
+        paragraph2: [
+          <p>The retail revenue from the Saudi operations totaled <span className="riyal-small">&</span> 3.2 billion for the year, a 1.7% YoY decline as a direct result of the brand optimization program, exiting non-core brands and markets. Despite this, key initiatives such as the reopening of the renovated flagship Zara store in Al Nakheel Mall and targeted marketing campaigns contributed to a stronger in-store performance during peak periods. During the last quarter of the year, Saudi retail revenue rose 9.1% YoY, supported by customer-centric campaigns such as White Friday and Pay Day promotions.</p>,
+          <p>بلغت إيرادات الشركة من مبيعات التجزئة في المملكة 3.2 <span className="riyal-small">&</span> مليار للعام، بانخفاض قدره 1.7% على أساس سنوي كنتيجة مباشرة لبرنامج تحسين العلامات التجارية الأساسية والتخارج من العلامات والأسواق غير الأساسية. رغم ذلك، ساهمت المبادرات الرئيسية مثل إعادة افتتاح متجر زارا الرئيسي المُجدد في النخيل مول والحملات التسويقية الموجهة في تحسين أداء المتاجر خلال فترات الذروة، حيث ارتفعت إيرادات التجزئة السعودية بنسبة 9.1% على أساس سنوي خلال الربع الأخير من العام، مدعومة بحملات تركز على العملاء مثل عروض الجمعة البيضاء ويوم الراتب.</p>
+        ],
+        paragraph3: [
+          <p>International operations delivered robust growth, with revenue rising 26.5% YoY to reach <span className="riyal-small">&</span> 1.3 billion. This was driven by greater contributions from Azerbaijan and Georgia, where full-year revenue increased by 26.6% and 26.8% respectively. Uzbekistan, where operations launched in early 2024, generated <span className="riyal-small">&</span> 132 million in its first year. Strategic investments in store openings, renovations and digital platforms across the CIS region supported this momentum.</p>,
+          <p>وحققت العمليات الدولية نمواً قوياً، حيث ارتفعت الإيرادات بنسبة 26.5% على أساس سنوي لتصل إلى 1.3 <span className="riyal-small">&</span> مليار، مدفوعة بمساهمات أكبر من أذربيجان وجورجيا، وارتفعت إيرادات العام الكامل بنسبة 26.6% و26.8% على التوالي. سجلت أوزبكستان، التي بدأت سينومي ريتيل عملياتها فيها في أوائل عام 2024م، إيرادات بلغت 132 <span className="riyal-small">&</span> مليون في عامها الأول، وقد دعم هذا الزخم الاستثمارات الاستراتيجية في افتتاح وتجديد المتاجر والمنصات الرقمية عبر منطقة رابطة الدول المستقلة.</p>
+        ],
+        paragraph4: [
+          <p>The F&B segment recorded revenue of <span className="riyal-small">&</span> 328 million in FY-24, down 13.5% YoY as a result of 35 non-performing stores. However, Subway demonstrated substantial growth, supported by the opening of 47 new stores and improved like-for-like performance. With 61 Company-owned and 164 sub-franchised outlets, the brand is well-positioned for further expansion in 2025.</p>,
+          <p>سجّل قطاع الأغذية والمشروبات إيرادات بلغت 328 <span className="riyal-small">&</span> مليون في السنة المالية 2024م، بانخفاض قدره 13.5% على أساس سنوي نتيجة إغلاق 35 متجراً ذات أداء ضعيف. ومع ذلك، أظهرت علامة صب واي نمواً كبيراً، مدعومة بافتتاح 47 متجراً جديداً وتحسن أداء مبيعات المتاجر القائمة. ومع وجود 61 منفذاً مملوكاً للشركة و164 منفذاً تدار بامتياز تجاري فرعي، تتمتع العلامة التجارية بمكانة جيدة لمزيد من التوسع في عام 2025م.</p>
+        ],
+        paragraph5: [
+          <p>Online revenue totaled <span className="riyal-small">&</span> 363 million, a 2.9% YoY decline, largely reflecting the impact of the brand portfolio restructuring. However, online sales from Zara and Inditex grew 6.6% YoY, supported by continued investment in digital platforms. Online revenue</p>,
+          <p>بلغت المبيعات عبر الإنترنت 363 <span className="riyal-small">&</span> مليون، بانخفاض قدره 2.9% على أساس سنوي، مما يعكس إلى حد كبير تأثير إعادة هيكلة محفظة العلامات التجارية. ومع ذلك، نمت المبيعات عبر الإنترنت من زارا وإنديتكس بنسبة 6.6% على أساس سنوي، مدعومة بالاستثمار المستمر في المنصات الرقمية، وبلغت مساهمة الإيرادات عبر الإنترنت (بما في ذلك الأغذية والمشروبات) في إجمالي الإيرادات 7.5% في السنة المالية 2024م، مع مواصلة برنامج تحسين العلامات التجارية تحقيق نتائج إيجابية.</p>
+        ],
       },
       section2: {
-        title: ["Strengthening Profitability and Financial Discipline", ""],
-        paragraph1: [<p>Gross Profit rose 5.8% to <span className="riyal-small">&</span> 632 million, with the profit margin increasing to 13.0%, supported by lower provisions, rent and personnel costs. The 0.2 percentage point margin improvement for the year reflects disciplined cost management and operational recovery. Key drivers included a 62.9% reduction in inventory provisions due to improved inventory control, a 7.5% reduction in employee salaries and benefits, and a 7.6% reduction in rent expenses – reflecting the results of the Company’s ongoing cost optimization and brand rationalization programs.</p>, ""],
-        paragraph2: ["SG&A expenses totaled % 407 million for the year, down 23.2% YoY. This reduction reflects improved cost controls and the strategic exit of underperforming stores, in line with rationalizing the brand and store portfolio.", ""],
-        paragraph3: [<p>EBITDA turned positive, reaching <span className="riyal-small">&</span> 469 million in FY-24 compared to a negative <span className="riyal-small">&</span> 115 million in the previous year. The EBITDA margin improved from -2.5% to 9.7%, driven by sustained progress in core operating performance, efficiency initiatives and margin discipline.</p>, ""],
-        paragraph4: [<p>Net loss narrowed from <span className="riyal-small">&</span> 1.1 billion in FY-23 to <span className="riyal-small">&</span> 197 million in FY-24, marking a significant step toward restoring profitability. The improvement reflects stronger revenue performance, margin recovery and a lower cost base, partially offset by non-cash year-end accounting adjustments related to goodwill and asset impairment under IFRS standards.</p>, ""],
-        paragraph5: [<p>Cenomi Retail also made meaningful progress in deleveraging its balance sheet. Net debt declined 31.6% YoY following <span className="riyal-small">&</span> 664 million in repayments, reducing total debt from % 2.5 billion to <span className="riyal-small">&</span> 1.6 billion. Finance charges decreased 4.2% YoY to <span className="riyal-small">&</span> 298 million, further supporting the Company’s financial resilience and long-term deleveraging strategy.</p>, ""],
+        title: ["Strengthening Profitability and Financial Discipline", "تعزيز الربحية والانضباط المالي"],
+        paragraph1: [
+          <p>Gross Profit rose 5.8% to <span className="riyal-small">&</span> 632 million, with the profit margin increasing to 13.0%, supported by lower provisions, rent and personnel costs. The 0.2 percentage point margin improvement for the year reflects disciplined cost management and operational recovery. Key drivers included a 62.9% reduction in inventory provisions due to improved inventory control, a 7.5% reduction in employee salaries and benefits, and a 7.6% reduction in rent expenses – reflecting the results of the Company’s ongoing cost optimization and brand rationalization programs.</p>,
+          <p>ارتفع إجمالي الربح بنسبة 5.8% إلى 632 <span className="riyal-small">&</span> مليون، مع زيادة الهامش إلى 13.0%، مدعوماً بانخفاض المخصصات والإيجارات وتكاليف الموظفين. ويعكس تحسن الهامش بمقدار 0.2 نقطة مئوية للعام الإدارة المنضبطة للتكاليف والتعافي التشغيلي. وتشمل العوامل الرئيسية لهذا التحسن تحقيق انخفاض بنسبة 62.9% في مخصصات المخزون بسبب تحسين مراقبة المخزون، وانخفاض بنسبة 7.5% في رواتب ومزايا الموظفين، وانخفاض بنسبة 7.6% في مصروفات الإيجار - مما يعكس نتائج البرامج المستمرة لتحسين التكاليف وترشيد محفظة العلامات التجارية للشركة.</p>
+        ],
+        paragraph2: [
+          "SG&A expenses totaled % 407 million for the year, down 23.2% YoY. This reduction reflects improved cost controls and the strategic exit of underperforming stores, in line with rationalizing the brand and store portfolio.",
+          "بلغت مصروفات البيع والمصروفات العمومية والإدارية 407 % مليون للعام، بانخفاض قدره 23.2% على أساس سنوي، ويعكس هذا الانخفاض تحسين ضوابط التكاليف والخروج الاستراتيجي من المتاجر ذات الأداء الضعيف، بما يتماشى مع ترشيد محفظة العلامات التجارية والمتاجر."
+        ],
+        paragraph3: [
+          <p>EBITDA turned positive, reaching <span className="riyal-small">&</span> 469 million in FY-24 compared to a negative <span className="riyal-small">&</span> 115 million in the previous year. The EBITDA margin improved from -2.5% to 9.7%, driven by sustained progress in core operating performance, efficiency initiatives and margin discipline.</p>,
+          <p>تحولت الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك إلى الإيجابية، حيث بلغت 469 % مليون في السنة المالية 2024م مقارنة بخسارة قدرها 115 <span className="riyal-small">&</span> مليون في العام السابق. وتحسن هامش الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك من -2.5% إلى 9.7%، مدفوعاً بالتقدم المستدام في الأداء التشغيلي الأساسي ومبادرات تعزيز الكفاءة وضبط مستويات الهوامش.</p>
+        ],
+        paragraph4: [
+          <p>Net loss narrowed from <span className="riyal-small">&</span> 1.1 billion in FY-23 to <span className="riyal-small">&</span> 197 million in FY-24, marking a significant step toward restoring profitability. The improvement reflects stronger revenue performance, margin recovery and a lower cost base, partially offset by non-cash year-end accounting adjustments related to goodwill and asset impairment under IFRS standards.</p>,
+          <p>تقلص صافي الخسارة بشكل كبير من 1.1 <span className="riyal-small">&</span> مليار في السنة المالية 2023م إلى 197 <span className="riyal-small">&</span> مليون في السنة المالية 2024م. ويمثل هذا التحسن خطوة مهمة نحو استعادة الربحية، حيث يعكس بوضوح تحسن أداء الإيرادات، وتعافي الهوامش الربحية، بالإضافة إلى خفض قاعدة التكاليف. ومع ذلك، تجدر الإشارة إلى أن هذا التحسن قوبل جزئياً بتعديلات محاسبية غير نقدية جرت في نهاية العام. وكانت تتعلق هذه التعديلات المطلوبة بموجب المعايير الدولية للتقارير المالية بإعادة تقييم الشهرة وتسجيل انخفاض في قيمة بعض الأصول.</p>
+        ],
+        paragraph5: [
+          <p>Cenomi Retail also made meaningful progress in deleveraging its balance sheet. Net debt declined 31.6% YoY following <span className="riyal-small">&</span> 664 million in repayments, reducing total debt from % 2.5 billion to <span className="riyal-small">&</span> 1.6 billion. Finance charges decreased 4.2% YoY to <span className="riyal-small">&</span> 298 million, further supporting the Company’s financial resilience and long-term deleveraging strategy.</p>,
+          <p>أحرزت سينومي ريتيل أيضاً تقدماً ملموساً في تخفيض الرافعة المالية لميزانيتها العمومية، حيث انخفض صافي الدين بنسبة 31.6% على أساس سنوي بعد سداد 664 <span className="riyal-small">&</span> مليون، مما خفض إجمالي الدين من 2.5 % مليار إلى 1.6 % مليار. وبالتالي، انخفضت تكلفة التمويل بنسبة 4.2% على أساس سنوي إلى 298 <span className="riyal-small">&</span> مليون، مما يدعم بشكل أكبر المرونة المالية للشركة واستراتيجية تخفيض الرافعة المالية طويلة الأجل.</p>
+        ],
       },
       section3: {
-        title: ["Driving Efficiency, Simplifying Operations and Reinforcing the Core", ""],
-        paragraph1: [<p>In 2024, Cenomi Retail advanced its operational transformation through targeted store expansion, strategic brand optimization and disciplined execution. New store openings of Tier 1 Champion Brands contributed 8.5% growth to Group revenue, supported by 41 new retail outlets and 52 F&B locations – many in prime areas aligned with Tier 1 Champion Brands. These additions reflect the Company’s ongoing focus on enhancing its physical footprint to drive stronger footfall, brand visibility and store performance.</p>, ""],
-        paragraph2: ["International operations played a key role in this strategy, with new Zara and Inditex stores opened across Uzbekistan and Azerbaijan. Cenomi Retail also launched four Inditex brands on Trendyol in December, further strengthening its digital reach. International like-for-like sales rose 6.0% YoY, reinforcing the growth potential of the Company’s global portfolio.", ""],
-        paragraph3: ["Meanwhile, the F&B division set a world record with the opening of 12 Subway stores on a single day in October, followed by 14 more in December. The 47 new Subway outlets launched during the year and 5.1% growth in like-for-like sales drove a 75.6% YoY increase in revenue.", ""],
-        paragraph4: [<p>The Company made tangible progress on its brand optimization program, completing the sale of 24 non-core brands over the course of the year. Key milestones included the divestment of 16 brands to Al-Othaim Fashion Company in Q1, followed by further brand sales to Apparel Group and additional agreements that collectively generated capital gains totaling <span className="riyal-small">&</span> 210 million. These actions helped simplify the portfolio and concentrate resources on higher-return assets.</p>, ""],
-        paragraph5: ["Operational discipline extended to inventory and asset management. Full-year inventory shrinkage was maintained at just 0.75% of sales, based on over 1,200 physical counts across stores and warehouses. In line with IFRS audit requirements, Cenomi Retail conducted year-end assessments of goodwill and other assets, with impairments recorded as part of prudent financial housekeeping. These efforts reflect the Company’s commitment to operating with greater clarity, control and commercial discipline.", ""],
+        title: ["Driving Efficiency, Simplifying Operations and Reinforcing the Core", "تحسين الكفاءة وتبسيط العمليات وتعزيز الأنشطة الأساسية"],
+        paragraph1: [
+          <p>In 2024, Cenomi Retail advanced its operational transformation through targeted store expansion, strategic brand optimization and disciplined execution. New store openings of Tier 1 Champion Brands contributed 8.5% growth to Group revenue, supported by 41 new retail outlets and 52 F&B locations – many in prime areas aligned with Tier 1 Champion Brands. These additions reflect the Company’s ongoing focus on enhancing its physical footprint to drive stronger footfall, brand visibility and store performance.</p>,
+          <p>في عام 2024م، دفعت سينومي ريتيل عجلة تحولها التشغيلي قُدماً من خلال التوسع المستهدف لمتاجرها، وتحسين علاماتها التجارية بشكل استراتيجي، والتنفيذ المنضبط لخططها. وقد أسهمت افتتاحات المتاجر الجديدة للعلامات التجارية الرائدة في تحقيق نمو بنسبة 8.5% في إيرادات المجموعة. جاء هذا النمو مدعوماً بافتتاح 41 منفذ تجزئة جديداً و52 موقعاً للأغذية والمشروبات، وكثير منها يقع في مناطق رئيسية، حيث اتبعت الشركة في اختيار المواقع نفس النهج الذي تطبقه مع العلامات التجارية الرائدة. وتعكس هذه الإضافات تركيز سينومي ريتيل المستمر على تعزيز حضورها المادي لزيادة حركة العملاء، وتعزيز ظهور العلامة التجارية، وتحسين أداء المتاجر.</p>
+        ],
+        paragraph2: [
+          "International operations played a key role in this strategy, with new Zara and Inditex stores opened across Uzbekistan and Azerbaijan. Cenomi Retail also launched four Inditex brands on Trendyol in December, further strengthening its digital reach. International like-for-like sales rose 6.0% YoY, reinforcing the growth potential of the Company’s global portfolio.",
+          "لعبت العمليات الدولية دوراً رئيسياً في هذه الاستراتيجية، حيث تم افتتاح متاجر جديدة لـ”زارا” و”إنديتكس” في أوزبكستان وأذربيجان. كما أطلقت سينومي ريتيل أربع علامات تجارية تابعة لـ”إنديتكس” على منصة “ترينديول” في ديسمبر، مما عزز انتشارها الرقمي بشكل أكبر. ونتيجة لذلك، ارتفعت المبيعات الدولية على أساس مبيعات المعارض القائمة بنسبة 6.0% على أساس سنوي، وهو ما يؤكد إمكانات النمو لمحفظة الشركة العالمية."
+        ],
+        paragraph3: [
+          "Meanwhile, the F&B division set a world record with the opening of 12 Subway stores on a single day in October, followed by 14 more in December. The 47 new Subway outlets launched during the year and 5.1% growth in like-for-like sales drove a 75.6% YoY increase in revenue.",
+          "في الوقت نفسه، سجل قسم الأغذية والمشروبات رقماً قياسياً عالمياً بافتتاح 12 متجراً لـصب واي في يوم واحد خلال شهر أكتوبر، تلاه افتتاح 14 متجراً إضافياً في ديسمبر، محطماً الرقم القياسي السابق. وقد ساهمت الـ47 منفذاً جديداً لـصب واي التي تم إطلاقها خلال العام، بالإضافة إلى نمو بنسبة 5.1% في المبيعات على أساس مبيعات المتاجر القائمة، في تحقيق زيادة قدرها 75.6% على أساس سنوي في الإيرادات لهذا القسم."
+        ],
+        paragraph4: [
+          <p>The Company made tangible progress on its brand optimization program, completing the sale of 24 non-core brands over the course of the year. Key milestones included the divestment of 16 brands to Al-Othaim Fashion Company in Q1, followed by further brand sales to Apparel Group and additional agreements that collectively generated capital gains totaling <span className="riyal-small">&</span> 210 million. These actions helped simplify the portfolio and concentrate resources on higher-return assets.</p>,
+          <p>أحرزت الشركة تقدماً ملموساً في برنامج تحسين أداء محفظة العلامات التجارية، مُكملة بيع 24 علامة تجارية غير أساسية على مدار العام. وتضمنت الإنجازات الرئيسية على هذا الصعيد بيع 16 علامة تجارية إلى شركة عبدالله العثيم للأزياء في الربع الأول، تلاها مبيعات علامات تجارية إضافية إلى مجموعة أباريل واتفاقيات إضافية حققت مجتمعة أرباحاً رأسمالية بإجمالي 210 <span className="riyal-small">&</span> مليون، وساعدت هذه الإجراءات في تبسيط المحفظة وتركيز الموارد على الأصول ذات العوائد الأعلى.</p>
+        ],
+        paragraph5: [
+          "Operational discipline extended to inventory and asset management. Full-year inventory shrinkage was maintained at just 0.75% of sales, based on over 1,200 physical counts across stores and warehouses. In line with IFRS audit requirements, Cenomi Retail conducted year-end assessments of goodwill and other assets, with impairments recorded as part of prudent financial housekeeping. These efforts reflect the Company’s commitment to operating with greater clarity, control and commercial discipline.",
+          "امتد الانضباط التشغيلي للشركة ليشمل إدارة المخزون والأصول بفاعلية كبيرة. ونتيجة لذلك، تمكنت سينومي ريتيل من الحفاظ على انكماش المخزون للعام بأكمله عند 0.75% فقط من المبيعات. جاء هذا الإنجاز بفضل إجراء أكثر من 1,200 عملية جرد فعلية دقيقة في جميع المتاجر والمستودعات. في سياق آخر، وتماشياً مع المتطلبات المحاسبية الدولية، أجرت الشركة تقييمات دقيقة في نهاية العام لأصولها غير الملموسة، مثل الشهرة، وللأصول الأخرى. وقد قامت بتسجيل أي انخفاض في القيمة لهذه الأصول، وهو إجراء يُعد جزءاً من الإدارة المالية الحصيفة والشفافة. تُبرز هذه الجهود مجتمعةً التزام سينومي ريتيل بالعمل بمنتهى الوضوح، والمراقبة الدقيقة لأنشطتها، والانضباط التجاري القوي في كافة عملياتها."
+        ],
         lable1: {
           number: 8.5,
-          suffix: [" %", ""],
-          underText: [<span>growth to Group<br /> Revenue from new<br /> store openings of Tier<br /> 1 Champion Brands</span>, <span></span>],
+          suffix: [" %", " %"],
+          underText: [
+            <span>growth to Group<br /> Revenue from new<br /> store openings of Tier<br /> 1 Champion Brands</span>,
+            <span>نمو إيرادات المجموعة <br />جرّاء افتتاحات المتاجر<br /> الجديدة للعلامات التجارية <br />الرائدة</span>
+          ],
         },
         label2: {
           number: 8.6,
           offset: "%",
-          suffix: [" m", ""],
-          underText: ["Online revenue", ""],
+          suffix: [" m", <span> <span className="riyalBigText">&</span> مليون </span>],
+          underText: ["Online revenue", "الإيرادات عبر الإنترنت"],
           prefix: [<span className="riyalBigText">& </span>, ""],
         }
       },
       section4: {
-        title: ["Positioned to Scale, Focused on Growth", ""],
-        paragraph1: ["Cenomi Retail will enter FY-25 with an ongoing commitment to further deleveraging the balance sheet, a more efficient cost base and a sharpened focus on high-potential growth markets. The Company will continue executing its strategic roadmap with disciplined investments in Tier 1 Champion Brands, operational excellence and digital innovation – unlocking long-term value across its omnichannel platform.", ""],
-        paragraph2: ["In the short-term, Cenomi Retail will prioritize targeted store openings in high-footfall, prime locations while advancing its renovation program to elevate customer experiences. The rollout of Inditex brands on", ""],
-        paragraph3: ["Trendyol will continue to enhance digital engagement and market penetration. In addition, the Company’s brand optimization efforts are designed to continue to streamline operations and ensure resources are concentrated on scalable, high-performing assets.", ""],
+        title: ["Positioned to Scale, Focused on Growth", "الاستعداد للنمو مع التركيز على التوسع"],
+        paragraph1: ["Cenomi Retail will enter FY-25 with an ongoing commitment to further deleveraging the balance sheet, a more efficient cost base and a sharpened focus on high-potential growth markets. The Company will continue executing its strategic roadmap with disciplined investments in Tier 1 Champion Brands, operational excellence and digital innovation – unlocking long-term value across its omnichannel platform.", "تتجه سينومي ريتيل إلى السنة المالية 2025م برؤية واضحة والتزام مستمر بتعزيز كفاءة الميزانية العمومية من خلال خفض الرافعة المالية، والحفاظ على قاعدة تكاليف أكثر انضباطًا، وتركيز استراتيجي على الأسواق ذات إمكانات النمو العالية. وستواصل الشركة تنفيذ خارطة طريقها الاستراتيجية من خلال استثمارات مدروسة تهدف إلى رفع أداء العلامات التجارية الرائدة، وتحقيق التميز التشغيلي، وتسريع وتيرة الابتكار الرقمي، وذلك ضمن إطار منصتها متعددة القنوات، وبما يضمن تعظيم القيمة طويلة الأجل لكافة أصحاب المصلحة."],
+        paragraph2: ["In the short-term, Cenomi Retail will prioritize targeted store openings in high-footfall, prime locations while advancing its renovation program to elevate customer experiences. The rollout of Inditex brands on", "وفي الأجل القريب، تعتزم سينومي ريتيل التركيز على افتتاح فروع جديدة مختارة بعناية في أبرز المواقع وأكثرها حيوية، حيث يزداد الإقبال من قِبل العملاء. وبالتوازي، تمضي الشركة قدمًا في تنفيذ برنامج شامل لتجديد المتاجر، بهدف الارتقاء بتجربة العملاء وتعزيز رضاهم. وفي هذا الإطار، ستواصل الشركة طرح علامات “إنديتكس” التجارية عبر منصة “ترينديول”، ما يعزز حضورها الرقمي ويدعم انتشارها في السوق. كما تهدف مبادرات تحسين أداء العلامات التجارية إلى تبسيط العمليات التشغيلية بشكل مستمر، وضمان توجيه الموارد نحو الأصول التي تتمتع بأعلى إمكانات النمو والكفاءة."],
+        paragraph3: ["Trendyol will continue to enhance digital engagement and market penetration. In addition, the Company’s brand optimization efforts are designed to continue to streamline operations and ensure resources are concentrated on scalable, high-performing assets.", "كما ستدخل في عام 2025م المرحلة الثانية من مسيرتها الاستراتيجية، والتي تحمل عنوان “الانطلاق نحو النمو”. وتهدف هذه المرحلة إلى تعزيز حضور علاماتها التجارية في الأسواق الرئيسية، إلى جانب استغلال الفرص المتاحة في الأسواق غير المستغلة. وستواصل الشركة التزامها الراسخ بتخفيض مديونيتها، مستندةً إلى الانخفاض الملحوظ بنسبة 31.6% على أساس سنوي في صافي الدين المسجل خلال السنة المالية 2024م. كما تسعى جاهدةً لتحقيق أعلى مستويات الكفاءة التشغيلية، بما يضمن نمواً مستداماً وربحياً."],
         paragraph4: ["From 2025, Cenomi Retail will transition into Phase 2 of its strategic journey: “Embark on Sustainable Growth” – scaling its brands across core markets, unlocking white space opportunities. The Company will maintain its commitment to deleveraging, building on the 31.6% YoY reduction in net debt achieved in FY-24, and will continue to pursue operational efficiencies to deliver sustainable, profitable growth.", ""],
       }
     },
