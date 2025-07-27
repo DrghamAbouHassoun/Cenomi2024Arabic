@@ -21,7 +21,7 @@ const ThemeModal = () => {
   return (
     <div id="themeModal" className={`${styles.themeModal}`} style={{ transform: isOpen ? "translateY(0)" : "translateY(-100vh)" }}>
       <img src={ThemeModalImageBg} alt="themeModalBg" className={styles.themeModalBg} />
-      <button onClick={() => handleToggle(!isOpen)} className={styles.closeButton}>
+      <button onClick={() => handleToggle(!isOpen)} className={`${styles.closeButton} ${rtlLanguage ? styles.rtl : ""}`}>
         <img src={CloseIcon} alt="close" className={styles.closeIcon} />
       </button>
       <div className={styles.themeModalContainer}>

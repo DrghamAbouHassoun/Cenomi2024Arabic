@@ -79,9 +79,9 @@ export const Home = () => {
             </Paragraph>
 
           </div>
-          <button onClick={() => { handleToggle(!isOpen) }} className={styles.themeModalButton}>
+          <button onClick={() => { handleToggle(!isOpen) }} className={`${styles.themeModalButton} ${rtlLanguage ? styles.rtl : ""}`}>
             <div className={styles.annualReportContainer} >
-              {getRightContent(rtlLanguage, ["Theme of the Year", "Theme of the Year"])}
+              {getRightContent(rtlLanguage, ["Theme of the Year", "شعار العام"])}
               <div className={styles.themeLine}></div>
 
             </div>
