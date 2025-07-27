@@ -130,6 +130,7 @@ export const ECommerce = () => {
                   />
                   <Count
                     countValue={item.countValue}
+                    showNumber={rtlLanguage ? false : true}
                     countSpanLeft={getRightContent(rtlLanguage, item.preffix)}
                     countSpan={getRightContent(rtlLanguage, item.suffix)}
                     classCountSpan={`${windowWidth < 320 ? "body-m" : windowWidth < 768 ? "body-l" : "subheading"
@@ -259,11 +260,11 @@ export const ECommerce = () => {
       <div className="spacer-32"></div>
       <div className="container horizontal-padding">
         <Paragraph classNames="bold subheading color-aubergine-900">
-          {getRightContent(rtlLanguage, ["To view the full E-commerce chapter, please click here to download the PDF.", ""])}
+          {getRightContent(rtlLanguage, ["To view the full E-commerce chapter, please click here to download the PDF.", "لعرض كل محتوى قطاع التجارة الإلكترونية، يرجى النقر هنا لتحميل الملف الإلكتروني." ])}
         </Paragraph>
         <div className="spacer-16"></div>
         <DownloadButton
-          text={["Read More", ""]}
+          text={["Read More", "أعرف المزيد"]}
           link="./pdf/E-commerce.pdf"
         />
       </div>

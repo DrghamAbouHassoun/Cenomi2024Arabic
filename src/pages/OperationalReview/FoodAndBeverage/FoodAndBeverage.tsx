@@ -322,11 +322,11 @@ export const FoodAndBeverage = () => {
       <div className="spacer-32"></div>
       <div className="container horizontal-padding">
         <Paragraph classNames="bold subheading color-aubergine-900">
-          {getRightContent(rtlLanguage, ["To view the full F&B chapter, please click here to download the PDF.", ""])}
+          {getRightContent(rtlLanguage, ["To view the full F&B chapter, please click here to download the PDF.", "لعرض كل محتوى قطاع الأغذية والمشروبات، يرجى النقر هنا لتحميل الملف الإلكتروني." ])}
         </Paragraph>
         <div className="spacer-16"></div>
         <DownloadButton
-          text={["Read More", ""]}
+          text={["Read More", "أعرف المزيد"]}
           link="./pdf/Food_and_Beverage.pdf"
         />
       </div>

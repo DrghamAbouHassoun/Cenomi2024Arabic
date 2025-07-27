@@ -22,6 +22,7 @@ import useWindowSize from "../../../hooks/useWindowSize";
 import Count from "../../../components/Count/Count";
 import { Frame } from "../../../components/Frame/Frame";
 import Map4 from "./Map4";
+import MapArabic from "./MapArabic";
 const pageContent = content.pages.GeographicFootprint;
 
 const arrayIcons = [icon1,icon1, null, icon2, icon3, icon4, icon5, icon6];
@@ -105,7 +106,7 @@ export const GeographicFootprint = () => {
           "fade-in-40px 0.9s backwards"
         )}
       >
-        <Map4 key={mapRef.inView ? "0" : "1"} />
+        {rtlLanguage ? <MapArabic key={mapRef.inView ? "0" : "1"} /> : <Map4 key={mapRef.inView ? "0" : "1"} />}
       </div>
       <div className="spacer-32"></div>
       <div className="container horizontal-padding">

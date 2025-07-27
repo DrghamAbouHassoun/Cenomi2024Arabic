@@ -525,11 +525,11 @@ export const InternationalRetail = () => {
       <div className="spacer-64"></div>
       <div className="container horizontal-padding">
         <Paragraph classNames="bold subheading color-aubergine-900">
-          {getRightContent(rtlLanguage, ["To view the full International Retail chapter, please click here to download the PDF.", ""])}
+          {getRightContent(rtlLanguage, ["To view the full International Retail chapter, please click here to download the PDF.", "لعرض كل محتوى قطاع التجزئة الدولي، يرجى النقر هنا لتحميل الملف الإلكتروني." ])}
         </Paragraph>
         <div className="spacer-16"></div>
         <DownloadButton
-          text={["Read More", ""]}
+          text={["Read More", "أعرف المزيد"]}
           link="./pdf/International_retail.pdf"
         />
       </div>

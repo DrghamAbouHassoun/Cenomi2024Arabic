@@ -328,7 +328,7 @@ export const KingdomSaudi = () => {
         </Paragraph>
         <div className="spacer-16"></div>
         <DownloadButton
-          text={["Read More", ""]}
+          text={["Read More", "أعرف المزيد"]}
           link="./pdf/Saudi_retail.pdf"
         />
       </div>

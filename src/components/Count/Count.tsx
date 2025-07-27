@@ -43,6 +43,7 @@ interface Props {
   increaseCounterFontSize?: boolean;
   delay?:number;
   showBox?:boolean;
+  showNumber?:boolean;
 }
 const Count = ({
   showBox,
@@ -80,7 +81,8 @@ const Count = ({
   classSpanUnderText = "body-s",
   classTextImg,
   classCountSpanLeft = "",
-  containerClassName = ""
+  containerClassName = "",
+  showNumber = true,
 }: Props) => {
   const rtlLanguage = useAppStore((state) => state.rtlLanguage);
   const windowWidth = useWindowSize();
@@ -204,7 +206,7 @@ const Count = ({
                       >
                         {instateCount}
                       </span>
-                    ) : (
+                    ) : showNumber ? (
                       
                         <CountUp
                         duration={0.5}
@@ -216,7 +218,7 @@ const Count = ({
                         delay={delay}                     
                       />
                      
-                    )}
+                    ) : null}
 
                     <span
                       className={[
